@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TGP_Duos.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DFD621E3-0325-4429-990D-4E50642099EF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TGP_Duos.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TGP_DuosEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{58BCFB26-8F87-4005-A3C5-58C7A19C2E9D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TGP_Duos">
+			<UniqueIdentifier>{3BDFD132-50AF-4D51-8FD7-39B8710DD823}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TGP_Duos\TGP_Duos.Build.cs">
+			<Filter>Source\TGP_Duos</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TGP_Duos\TGP_Duos.cpp">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TGP_Duos\TGP_Duos.h">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TGP_Duos\TGP_DuosCharacter.cpp">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TGP_Duos\TGP_DuosCharacter.h">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TGP_Duos\TGP_DuosGameMode.cpp">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TGP_Duos\TGP_DuosGameMode.h">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TGP_Duos\TGP_DuosHUD.cpp">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TGP_Duos\TGP_DuosHUD.h">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TGP_Duos\TGP_DuosProjectile.cpp">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TGP_Duos\TGP_DuosProjectile.h">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
