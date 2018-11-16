@@ -337,3 +337,18 @@ LogInit: Object subsystem initialized
 [2018.11.16-15.58.45:983][203]LogSlate: Window 'Jump-pad' being destroyed
 [2018.11.16-15.58.45:987][203]LogSlate: Window 'Jump-pad' being destroyed
 [2018.11.16-15.58.48:629][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-16.02.43:976][699]LogAssetEditorManager: Opening Asset editor for Class /Script/TGP_Duos.Jump_Pad
+[2018.11.16-16.03.28:423][631]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.28:437][632]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.28:777][633]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.29:114][634]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.29:452][635]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.29:789][636]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.30:120][637]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.30:455][638]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.30:796][639]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.31:129][640]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.31:462][641]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.31:796][642]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.32:133][643]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.11.16-16.03.32:466][644]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
