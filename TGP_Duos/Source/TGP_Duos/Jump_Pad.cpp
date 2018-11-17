@@ -6,6 +6,8 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "Components/PrimitiveComponent.h"
 #include "TGP_DuosCharacter.h"
+#include "MovingPlatform.h"
+#include "Classes/Components/SplineComponent.h"
 #include "Classes/GameFramework/CharacterMovementComponent.h"
 
 
@@ -65,7 +67,16 @@ void AJump_Pad::NotifyActorBeginOverlap(AActor* OtherActor)
 	{
 		UCharacterMovementComponent* movementComp = character->GetCharacterMovement();
 		character->Jump();
-		movementComp->Velocity = LaunchData(targetLocation->GetActorLocation(), OtherActor);
+
+		if (AMovingPlatform* platform = Cast<AMovingPlatform>(targetLocation))
+		{
+			FVector launchLocation = platform->splinePath->GetLocationAtDistanceAlongSpline(platform->distance + (platform->movingSpeed * jumpTime), ESplineCoordinateSpace::World);
+			movementComp->Velocity = LaunchData(launchLocation, OtherActor);
+		}
+		else
+		{
+			movementComp->Velocity = LaunchData(targetLocation->GetActorLocation(), OtherActor);
+		}
 	}
 
 }

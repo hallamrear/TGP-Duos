@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeTGP_Duos_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/TGP_Duos",
 				PKG_CompiledIn | 0x00000000,
-				0xF093EFC4,
-				0x851E4D15,
+				0x25A0A5FA,
+				0x94EB249E,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

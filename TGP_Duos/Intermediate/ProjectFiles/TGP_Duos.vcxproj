@@ -421,6 +421,8 @@
 		<None Include="..\..\Config\DefaultInput.ini" />
 		<ClCompile Include="..\..\Source\TGP_Duos\Jump_Pad.cpp" />
 		<ClInclude Include="..\..\Source\TGP_Duos\Jump_Pad.h" />
+		<ClCompile Include="..\..\Source\TGP_Duos\MovingPlatform.cpp" />
+		<ClInclude Include="..\..\Source\TGP_Duos\MovingPlatform.h" />
 		<None Include="..\..\Source\TGP_Duos\TGP_Duos.Build.cs" />
 		<ClCompile Include="..\..\Source\TGP_Duos\TGP_Duos.cpp" />
 		<ClInclude Include="..\..\Source\TGP_Duos\TGP_Duos.h" />

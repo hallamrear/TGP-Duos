@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TGP_Duos.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{1F5CEE44-6AA9-4664-B0F2-BF961A615CE0}</UniqueIdentifier>
+			<UniqueIdentifier>{77F1313A-278D-4378-AED3-BFF04E4B8E5D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TGP_Duos.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{A51F3501-77A4-4C4D-B584-00E76C0C2343}</UniqueIdentifier>
+			<UniqueIdentifier>{4E81C099-27EE-4DE0-92F3-DA6BDF8DEE08}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,12 +31,18 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TGP_Duos">
-			<UniqueIdentifier>{91F02699-3668-4F45-AF2C-C4CD11325677}</UniqueIdentifier>
+			<UniqueIdentifier>{EA57A1DA-B5BE-4A01-B134-8586718A5A28}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TGP_Duos\Jump_Pad.cpp">
 			<Filter>Source\TGP_Duos</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\TGP_Duos\Jump_Pad.h">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TGP_Duos\MovingPlatform.cpp">
+			<Filter>Source\TGP_Duos</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TGP_Duos\MovingPlatform.h">
 			<Filter>Source\TGP_Duos</Filter>
 		</ClInclude >
 		<None Include="..\..\Source\TGP_Duos\TGP_Duos.Build.cs">
