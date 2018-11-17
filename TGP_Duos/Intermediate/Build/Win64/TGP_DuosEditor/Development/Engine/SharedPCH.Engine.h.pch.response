@@ -179,17 +179,17 @@
 /I Runtime\AudioMixer\Classes
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/I E:\Repos\Uni\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine
-/Yc"E:\Repos\Uni\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\Repos\Uni\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Repos\Uni\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"E:\Repos\Uni\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/I C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine
+/Yc"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4
