@@ -59,13 +59,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATGP_DuosCharacter); \
 
 #define TGP_Duos_Source_TGP_Duos_TGP_DuosCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(ATGP_DuosCharacter, Mesh1P); } \
-	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(ATGP_DuosCharacter, FP_Gun); } \
-	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(ATGP_DuosCharacter, FP_MuzzleLocation); } \
-	FORCEINLINE static uint32 __PPO__VR_Gun() { return STRUCT_OFFSET(ATGP_DuosCharacter, VR_Gun); } \
-	FORCEINLINE static uint32 __PPO__VR_MuzzleLocation() { return STRUCT_OFFSET(ATGP_DuosCharacter, VR_MuzzleLocation); } \
 	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(ATGP_DuosCharacter, FirstPersonCameraComponent); } \
-	FORCEINLINE static uint32 __PPO__R_MotionController() { return STRUCT_OFFSET(ATGP_DuosCharacter, R_MotionController); } \
-	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(ATGP_DuosCharacter, L_MotionController); }
+	FORCEINLINE static uint32 __PPO__weaponOne() { return STRUCT_OFFSET(ATGP_DuosCharacter, weaponOne); } \
+	FORCEINLINE static uint32 __PPO__weaponMesh() { return STRUCT_OFFSET(ATGP_DuosCharacter, weaponMesh); } \
+	FORCEINLINE static uint32 __PPO__weaponProjectile() { return STRUCT_OFFSET(ATGP_DuosCharacter, weaponProjectile); }
 
 
 #define TGP_Duos_Source_TGP_Duos_TGP_DuosCharacter_h_11_PROLOG

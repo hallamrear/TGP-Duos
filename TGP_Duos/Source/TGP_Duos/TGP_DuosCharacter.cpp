@@ -6,11 +6,13 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/StaticMeshComponent.h"
 #include "GameFramework/InputSettings.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
-#include "MotionControllerComponent.h"
-#include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "Base_Weapon.h"
+#include "Base_Weapon_Projectile.h"
+#include <Runtime/Engine/Classes/Engine/Engine.h>
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -42,46 +44,17 @@ ATGP_DuosCharacter::ATGP_DuosCharacter()
 	Mesh1P->RelativeLocation = FVector(-0.5f, -4.4f, -155.7f);
 
 	// Create a gun mesh component
-	FP_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FP_Gun"));
-	FP_Gun->SetOnlyOwnerSee(true);			// only the owning player will see this mesh
-	FP_Gun->bCastDynamicShadow = false;
-	FP_Gun->CastShadow = false;
-	// FP_Gun->SetupAttachment(Mesh1P, TEXT("GripPoint"));
-	FP_Gun->SetupAttachment(RootComponent);
-
-	FP_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("MuzzleLocation"));
-	FP_MuzzleLocation->SetupAttachment(FP_Gun);
-	FP_MuzzleLocation->SetRelativeLocation(FVector(0.2f, 48.4f, -10.6f));
+	weaponMesh = weaponOne->GetDefaultObject<ABase_Weapon>()->GetWeaponMesh();
+	weaponMesh->SetOnlyOwnerSee(true);			// only the owning player will see this mesh
+	weaponMesh->bCastDynamicShadow = false;
+	weaponMesh->CastShadow = false;
+	weaponMesh->SetupAttachment(RootComponent);
 
 	// Default offset from the character location for projectiles to spawn
 	GunOffset = FVector(100.0f, 0.0f, 10.0f);
 
-	// Note: The ProjectileClass and the skeletal mesh/anim blueprints for Mesh1P, FP_Gun, and VR_Gun 
+	// Note: The ProjectileClass and the skeletal mesh/anim bluepwrints for Mesh1P, FP_Gun, and VR_Gun 
 	// are set in the derived blueprint asset named MyCharacter to avoid direct content references in C++.
-
-	// Create VR Controllers.
-	R_MotionController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("R_MotionController"));
-	R_MotionController->MotionSource = FXRMotionControllerBase::RightHandSourceId;
-	R_MotionController->SetupAttachment(RootComponent);
-	L_MotionController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("L_MotionController"));
-	L_MotionController->SetupAttachment(RootComponent);
-
-	// Create a gun and attach it to the right-hand VR controller.
-	// Create a gun mesh component
-	VR_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("VR_Gun"));
-	VR_Gun->SetOnlyOwnerSee(true);			// only the owning player will see this mesh
-	VR_Gun->bCastDynamicShadow = false;
-	VR_Gun->CastShadow = false;
-	VR_Gun->SetupAttachment(R_MotionController);
-	VR_Gun->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
-
-	VR_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("VR_MuzzleLocation"));
-	VR_MuzzleLocation->SetupAttachment(VR_Gun);
-	VR_MuzzleLocation->SetRelativeLocation(FVector(0.000004, 53.999992, 10.000000));
-	VR_MuzzleLocation->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));		// Counteract the rotation of the VR gun model.
-
-	// Uncomment the following line to turn motion controllers on by default:
-	//bUsingMotionControllers = true;
 }
 
 void ATGP_DuosCharacter::BeginPlay()
@@ -90,20 +63,9 @@ void ATGP_DuosCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
-	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+	weaponOne->GetDefaultObject<ABase_Weapon>()->GetWeaponMesh()->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 
-	// Show or hide the two versions of the gun based on whether or not we're using motion controllers.
-	if (bUsingMotionControllers)
-	{
-		VR_Gun->SetHiddenInGame(false, true);
-		Mesh1P->SetHiddenInGame(true, true);
-	}
-	else
-	{
-		VR_Gun->SetHiddenInGame(true, true);
-		Mesh1P->SetHiddenInGame(false, true);
-	}
-}
+}	
 
 //////////////////////////////////////////////////////////////////////////
 // Input
@@ -120,11 +82,6 @@ void ATGP_DuosCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATGP_DuosCharacter::OnFire);
 
-	// Enable touchscreen input
-	EnableTouchscreenMovement(PlayerInputComponent);
-
-	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ATGP_DuosCharacter::OnResetVR);
-
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &ATGP_DuosCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ATGP_DuosCharacter::MoveRight);
@@ -136,37 +93,47 @@ void ATGP_DuosCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	PlayerInputComponent->BindAxis("TurnRate", this, &ATGP_DuosCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ATGP_DuosCharacter::LookUpAtRate);
+
+	//_Weapons_
+	//Equiping buttons for 3 weapons.
+	PlayerInputComponent->BindAction("Weapon_1", IE_Pressed, this, &ATGP_DuosCharacter::EquipWeapon_1);
+	PlayerInputComponent->BindAction("Weapon_2", IE_Pressed, this, &ATGP_DuosCharacter::EquipWeapon_2);
+	PlayerInputComponent->BindAction("Weapon_3", IE_Pressed, this, &ATGP_DuosCharacter::EquipWeapon_3);
+}
+
+void ATGP_DuosCharacter::EquipWeapon_1()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 1 button pressed."));
+
+	if (hasWeaponOne)
+	{
+
+	}
+}
+
+void ATGP_DuosCharacter::EquipWeapon_2()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 2 button pressed."));
+
+	if (hasWeaponTwo)
+	{
+
+	}
+}
+
+void ATGP_DuosCharacter::EquipWeapon_3()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 3 button pressed."));
+
+	if (hasWeaponThree)
+	{
+
+	}
 }
 
 void ATGP_DuosCharacter::OnFire()
 {
-	// try and fire a projectile
-	if (ProjectileClass != NULL)
-	{
-		UWorld* const World = GetWorld();
-		if (World != NULL)
-		{
-			if (bUsingMotionControllers)
-			{
-				const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
-				const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
-				World->SpawnActor<ATGP_DuosProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
-			}
-			else
-			{
-				const FRotator SpawnRotation = GetControlRotation();
-				// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-				const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
-
-				//Set Spawn Collision Handling Override
-				FActorSpawnParameters ActorSpawnParams;
-				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
-
-				// spawn the projectile at the muzzle
-				World->SpawnActor<ATGP_DuosProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-			}
-		}
-	}
+	weaponOne->GetDefaultObject<ABase_Weapon>()->Shoot();
 
 	// try and play the sound if specified
 	if (FireSound != NULL)
@@ -185,74 +152,6 @@ void ATGP_DuosCharacter::OnFire()
 		}
 	}
 }
-
-void ATGP_DuosCharacter::OnResetVR()
-{
-	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
-}
-
-void ATGP_DuosCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	if (TouchItem.bIsPressed == true)
-	{
-		return;
-	}
-	if ((FingerIndex == TouchItem.FingerIndex) && (TouchItem.bMoved == false))
-	{
-		OnFire();
-	}
-	TouchItem.bIsPressed = true;
-	TouchItem.FingerIndex = FingerIndex;
-	TouchItem.Location = Location;
-	TouchItem.bMoved = false;
-}
-
-void ATGP_DuosCharacter::EndTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	if (TouchItem.bIsPressed == false)
-	{
-		return;
-	}
-	TouchItem.bIsPressed = false;
-}
-
-//Commenting this section out to be consistent with FPS BP template.
-//This allows the user to turn without using the right virtual joystick
-
-//void ATGP_DuosCharacter::TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location)
-//{
-//	if ((TouchItem.bIsPressed == true) && (TouchItem.FingerIndex == FingerIndex))
-//	{
-//		if (TouchItem.bIsPressed)
-//		{
-//			if (GetWorld() != nullptr)
-//			{
-//				UGameViewportClient* ViewportClient = GetWorld()->GetGameViewport();
-//				if (ViewportClient != nullptr)
-//				{
-//					FVector MoveDelta = Location - TouchItem.Location;
-//					FVector2D ScreenSize;
-//					ViewportClient->GetViewportSize(ScreenSize);
-//					FVector2D ScaledDelta = FVector2D(MoveDelta.X, MoveDelta.Y) / ScreenSize;
-//					if (FMath::Abs(ScaledDelta.X) >= 4.0 / ScreenSize.X)
-//					{
-//						TouchItem.bMoved = true;
-//						float Value = ScaledDelta.X * BaseTurnRate;
-//						AddControllerYawInput(Value);
-//					}
-//					if (FMath::Abs(ScaledDelta.Y) >= 4.0 / ScreenSize.Y)
-//					{
-//						TouchItem.bMoved = true;
-//						float Value = ScaledDelta.Y * BaseTurnRate;
-//						AddControllerPitchInput(Value);
-//					}
-//					TouchItem.Location = Location;
-//				}
-//				TouchItem.Location = Location;
-//			}
-//		}
-//	}
-//}
 
 void ATGP_DuosCharacter::MoveForward(float Value)
 {
@@ -282,19 +181,4 @@ void ATGP_DuosCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
-}
-
-bool ATGP_DuosCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerInputComponent)
-{
-	if (FPlatformMisc::SupportsTouchInput() || GetDefault<UInputSettings>()->bUseMouseForTouch)
-	{
-		PlayerInputComponent->BindTouch(EInputEvent::IE_Pressed, this, &ATGP_DuosCharacter::BeginTouch);
-		PlayerInputComponent->BindTouch(EInputEvent::IE_Released, this, &ATGP_DuosCharacter::EndTouch);
-
-		//Commenting this out to be more consistent with FPS BP template.
-		//PlayerInputComponent->BindTouch(EInputEvent::IE_Repeat, this, &ATGP_DuosCharacter::TouchUpdate);
-		return true;
-	}
-	
-	return false;
 }

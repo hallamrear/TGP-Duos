@@ -1,0 +1,2 @@
+﻿  The system cannot find the path specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" TGP_DuosEditor Win64 Development "E:\Repos\Uni\TGP-Duos\TGP_Duos\TGP_Duos.uproject" -WaitMutex -FromMsBuild" exited with code 3.
