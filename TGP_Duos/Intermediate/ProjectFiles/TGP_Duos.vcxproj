@@ -419,6 +419,8 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\TGP_Duos\AI_Controller.cpp" />
+		<ClInclude Include="..\..\Source\TGP_Duos\AI_Controller.h" />
 		<ClCompile Include="..\..\Source\TGP_Duos\Jump_Pad.cpp" />
 		<ClInclude Include="..\..\Source\TGP_Duos\Jump_Pad.h" />
 		<ClCompile Include="..\..\Source\TGP_Duos\MovingPlatform.cpp" />
