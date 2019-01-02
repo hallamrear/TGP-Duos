@@ -401,21 +401,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Inc\TGP_Duos
-/I C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Source
-/I C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Source\TGP_Duos
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
+/I C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Inc\TGP_Duos
+/I C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Source
+/I C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Source\TGP_Duos
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Source\TGP_Duos\MovingPlatform.cpp"
-/FI"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\Definitions.TGP_Duos.h"
-/Fo"C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\MovingPlatform.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Source\TGP_Duos\MovingPlatform.cpp"
+/FI"C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\Definitions.TGP_Duos.h"
+/Fo"C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\MovingPlatform.cpp.obj"
 /TP
 /GR-
 /W4

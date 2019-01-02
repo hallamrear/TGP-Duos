@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TGP_Duos.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{EC6B1472-53DD-4773-B260-571B9BFD6A28}</UniqueIdentifier>
+			<UniqueIdentifier>{1CA0EFB1-7A32-4336-9506-DF0E436E3963}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TGP_Duos.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{13E73DAC-5784-4BA6-80C5-35C882B6FFB9}</UniqueIdentifier>
+			<UniqueIdentifier>{4A8306FC-0D8A-4690-B78B-1523FDA50CE9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,14 +31,8 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TGP_Duos">
-			<UniqueIdentifier>{2D29281E-01E1-420B-A70D-ADB0C07BAD3C}</UniqueIdentifier>
+			<UniqueIdentifier>{B9923E11-12FF-4956-8979-A8C6316EED19}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\Source\TGP_Duos\AI_Controller.cpp">
-			<Filter>Source\TGP_Duos</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TGP_Duos\AI_Controller.h">
-			<Filter>Source\TGP_Duos</Filter>
-		</ClInclude >
 		<ClCompile Include="..\..\Source\TGP_Duos\Jump_Pad.cpp">
 			<Filter>Source\TGP_Duos</Filter>
 		</ClCompile >

@@ -1,26 +1,30 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for TGP_DuosEditor (no existing makefile)
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for TGP_DuosEditor
-    Running UnrealHeaderTool "C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\TGP_Duos.uproject" "C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\TGP_DuosEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for TGP_DuosEditor in 19.2258592 seconds
-  Building 15 actions with 8 processes...
-    [1/15] SharedPCH.Engine.cpp
-    [2/15] TGP_Duos.cpp
-    [3/15] TGP_Duos.init.gen.cpp
-    [4/15] TGP_DuosProjectile.cpp
-    [5/15] Jump_Pad.gen.cpp
-    [6/15] TGP_DuosGameMode.cpp
-    [7/15] TGP_DuosCharacter.gen.cpp
-    [8/15] TGP_DuosHUD.cpp
-    [9/15] TGP_DuosGameMode.gen.cpp
-    [10/15] TGP_DuosProjectile.gen.cpp
-    [11/15] TGP_DuosHUD.gen.cpp
-    [12/15] Jump_Pad.cpp
-    [13/15] TGP_DuosCharacter.cpp
-    [14/15] UE4Editor-TGP_Duos.lib
-       Creating library C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.lib and object C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.exp
-    [15/15] UE4Editor-TGP_Duos.dll
-       Creating library C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.suppressed.lib and object C:\Users\Carbo\Documents\GitHub\TGPProject\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.suppressed.exp
+    Running UnrealHeaderTool "C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\TGP_Duos.uproject" "C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\TGP_DuosEditor\Development\TGP_DuosEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TGP_DuosEditor in 11,2882302 seconds
+  Building 18 actions with 4 processes...
+    [1/18] PCLaunch.rc
+    [2/18] SharedPCH.Engine.cpp
+    [3/18] TGP_Duos.init.gen.cpp
+    [4/18] TGP_DuosGameMode.gen.cpp
+    [5/18] TGP_DuosHUD.gen.cpp
+    [6/18] TGP_DuosCharacter.gen.cpp
+    [7/18] MovingPlatform.gen.cpp
+    [8/18] Jump_Pad.gen.cpp
+    [9/18] TGP_Duos.cpp
+    [10/18] TGP_DuosGameMode.cpp
+    [11/18] TGP_DuosHUD.cpp
+    [12/18] MovingPlatform.cpp
+    [13/18] TGP_DuosProjectile.gen.cpp
+    [14/18] TGP_DuosProjectile.cpp
+    [15/18] Jump_Pad.cpp
+    [16/18] TGP_DuosCharacter.cpp
+    [17/18] UE4Editor-TGP_Duos.lib
+       Creating library C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.lib and object C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.exp
+    [18/18] UE4Editor-TGP_Duos.dll
+       Creating library C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.suppressed.lib and object C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.suppressed.exp
   Deploying TGP_DuosEditor Win64 Development...
-  Total build time: 58.93 seconds (Parallel executor: 32.36 seconds)
+  Total build time: 72,92 seconds (Parallel executor: 42,07 seconds)

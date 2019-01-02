@@ -1,0 +1,1000 @@
+﻿Log file open, 12/20/18 13:06:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TGP_Duos
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 3.516635
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.334s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E3-1226 v3 @ 3.30GHz, GPU: NVIDIA Quadro K420
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.019s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.20-11.06.53:647][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.20-11.06.53:647][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.20-11.06.53:682][  0]LogHAL: Display: Platform has ~ 8 GB [8529268736 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.20-11.06.53:696][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.20-11.06.53:696][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.20-11.06.53:727][  0]LogInit: Computer: XEON2
+[2018.12.20-11.06.53:728][  0]LogInit: User: gmloukie
+[2018.12.20-11.06.53:728][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.20-11.06.53:728][  0]LogInit: High frequency timer resolution =3.215211 MHz
+[2018.12.20-11.06.53:728][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.20-11.06.53:740][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.20-11.06.53:740][  0]LogMemory: Process Physical Memory: 99.64 MB used, 99.64 MB peak
+[2018.12.20-11.06.53:740][  0]LogMemory: Process Virtual Memory: 90.25 MB used, 90.25 MB peak
+[2018.12.20-11.06.53:740][  0]LogMemory: Physical Memory: 5240.63 MB used,  2893.52 MB free, 8134.14 MB total
+[2018.12.20-11.06.53:740][  0]LogMemory: Virtual Memory: 514.32 MB used,  2893.52 MB free, 134217728.00 MB total
+[2018.12.20-11.06.54:396][  0]LogInit: Using OS detected language (en-US).
+[2018.12.20-11.06.54:396][  0]LogInit: Using OS detected locale (el-GR).
+[2018.12.20-11.06.54:477][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.20-11.06.55:207][  0]LogStreaming: Display: Took  0.817s to InitEngineTextLocalization.
+[2018.12.20-11.06.55:208][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.20-11.06.55:791][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.20-11.06.55:791][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.20-11.06.56:605][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.20-11.06.56:613][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.20-11.06.56:693][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K420' (Feature Level 11_0)
+[2018.12.20-11.06.56:693][  0]LogD3D11RHI:       972/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.20-11.06.56:695][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.20-11.06.56:695][  0]LogD3D11RHI:       0/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.20-11.06.56:695][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.20-11.06.56:706][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.20-11.06.56:706][  0]LogD3D11RHI:     GPU DeviceId: 0xff3 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.20-11.06.56:724][  0]LogWindows: EnumDisplayDevices:
+[2018.12.20-11.06.56:724][  0]LogWindows:    0. 'NVIDIA Quadro K420' (P:1 D:1)
+[2018.12.20-11.06.56:727][  0]LogWindows:    1. 'NVIDIA Quadro K420' (P:0 D:0)
+[2018.12.20-11.06.56:727][  0]LogWindows:    2. 'NVIDIA Quadro K420' (P:0 D:0)
+[2018.12.20-11.06.56:727][  0]LogWindows:    3. 'NVIDIA Quadro K420' (P:0 D:0)
+[2018.12.20-11.06.56:727][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.20-11.06.56:727][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K420
+[2018.12.20-11.06.56:727][  0]LogD3D11RHI:   Driver Version: 353.62 (internal:10.18.13.5362, unified:353.62)
+[2018.12.20-11.06.56:728][  0]LogD3D11RHI:      Driver Date: 7-22-2015
+[2018.12.20-11.06.56:728][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2018.12.20-11.06.56:843][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2018.12.20-11.06.56:843][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.20-11.06.56:975][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.20-11.06.57:060][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Intermediate/Shaders/WorkingDirectory/63188/).
+[2018.12.20-11.06.57:060][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gmloukie/AppData/Local/Temp/UnrealShaderWorkingDir/F5A5CD444415B49848EBE6AFE9BE8746/'.
+[2018.12.20-11.06.58:836][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.20-11.06.58:864][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.20-11.06.58:883][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.20-11.06.58:903][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.20-11.06.58:941][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.20-11.06.58:979][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.20-11.06.58:994][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.20-11.06.59:009][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.20-11.06.59:016][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-11.06.59:208][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.20-11.06.59:317][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.20-11.06.59:317][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.20-11.06.59:342][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.20-11.06.59:342][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.20-11.06.59:380][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.20-11.06.59:394][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.20-11.06.59:426][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.20-11.06.59:449][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.20-11.06.59:462][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.20-11.06.59:462][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.20-11.07.00:128][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.20-11.07.00:128][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.20-11.07.00:128][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.20-11.07.01:821][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.20-11.07.02:711][  0]LogDerivedDataCache: Loaded boot cache 0.89s 73MB C:/Users/gmloukie/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.20-11.07.02:711][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gmloukie/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.20-11.07.02:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.20-11.07.02:711][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.20-11.07.02:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.20-11.07.02:711][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.20-11.07.02:767][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.20-11.07.02:789][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gmloukie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.20-11.07.02:789][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.20-11.07.02:789][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.20-11.07.02:843][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.20-11.07.02:897][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.20-11.07.02:952][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.20-11.07.03:371][  0]LogAssetRegistry: FAssetRegistry took 0.0602 seconds to start up
+[2018.12.20-11.07.06:362][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.20-11.07.08:275][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.20-11.07.08:385][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.20-11.07.08:386][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.20-11.07.08:399][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.20-11.07.08:399][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.20-11.07.08:708][  0]LogNetVersion: TGP_Duos 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2163957344)
+[2018.12.20-11.07.12:255][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.170838 seconds
+[2018.12.20-11.07.12:315][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.20-11.07.12:315][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.20-11.07.12:315][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.20-11.07.27:627][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.20-11.07.27:680][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.20-11.07.30:817][  0]SourceControl: Source control is disabled
+[2018.12.20-11.07.30:818][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.20-11.07.30:818][  0]LogWindows: Warning: URL: C:/Users/Carbo/AppData/Local/GitHubDesktop/app-1.5.0/resources/app/git/cmd/git.exe version
+[2018.12.20-11.07.30:888][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.20-11.07.30:888][  0]LogWindows: Warning: URL: C:/Users/Carbo/AppData/Local/GitHubDesktop/app-1.5.0/resources/app/git/cmd/git.exe version
+[2018.12.20-11.07.30:916][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.20-11.07.30:916][  0]LogWindows: Warning: URL: C:/Users/Carbo/AppData/Local/GitHubDesktop/app-1.5.0/resources/app/git/cmd/git.exe version
+[2018.12.20-11.07.31:999][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.20-11.07.32:621][  0]LogOcInput: OculusInput pre-init called
+[2018.12.20-11.07.33:479][  0]LogEngine: Initializing Engine...
+[2018.12.20-11.07.33:533][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.20-11.07.33:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.20-11.07.33:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.20-11.07.33:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.20-11.07.33:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.20-11.07.34:082][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.20-11.07.34:296][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.20-11.07.34:372][  0]LogInit: XAudio2 using 'Ηχεία / Ακουστικά (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.20-11.07.34:432][  0]LogInit: FAudioDevice initialized.
+[2018.12.20-11.07.34:446][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.20-11.07.34:716][  0]LogDerivedDataCache: Saved boot cache 0.27s 73MB C:/Users/gmloukie/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.20-11.07.34:724][  0]LogInit: Texture streaming: Enabled
+[2018.12.20-11.07.34:971][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.20-11.07.34:971][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={EFEDB4AC-48E7-8F76-076F-44B121978427}
+[2018.12.20-11.07.35:183][  0]LogInit: Transaction tracking system initialized
+[2018.12.20-11.07.35:522][  0]BlueprintLog: New page: Editor Load
+[2018.12.20-11.07.37:194][  0]LocalizationService: Localization service is disabled
+[2018.12.20-11.07.39:274][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/' took 0.03s
+[2018.12.20-11.07.39:274][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.20-11.07.39:274][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.20-11.07.39:292][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.20-11.07.39:292][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.20-11.07.39:292][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.20-11.07.39:293][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.20-11.07.39:293][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.20-11.07.41:381][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.20-11.07.41:381][  0]LogWindows: Warning: URL: C:/Users/Carbo/AppData/Local/GitHubDesktop/app-1.5.0/resources/app/git/cmd/git.exe version
+[2018.12.20-11.07.41:422][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.20-11.07.41:453][  0]LightingResults: New page: Lighting Build
+[2018.12.20-11.07.41:553][  0]MapCheck: New page: Map Check
+[2018.12.20-11.07.41:553][  0]LightingResults: New page: Lighting Build
+[2018.12.20-11.07.44:236][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.20-11.07.44:618][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.20-11.07.44:749][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.20-11.07.44:902][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 153,142ms to complete.
+[2018.12.20-11.07.44:927][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.539
+[2018.12.20-11.07.46:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.20-11.07.46:351][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.20-11.07.46:358][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.20-11.07.46:366][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.20-11.07.46:488][  0]LogCollectionManager: Loaded 0 collections in 0.002071 seconds
+[2018.12.20-11.07.46:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Collections/' took 0.01s
+[2018.12.20-11.07.46:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Developers/gmloukie/Collections/' took 0.01s
+[2018.12.20-11.07.46:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Collections/' took 0.01s
+[2018.12.20-11.07.46:941][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.20-11.07.47:012][  0]LogContentBrowser: Native class hierarchy populated in 0.0698 seconds. Added 2578 classes and 605 folders.
+[2018.12.20-11.07.47:112][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.20-11.07.47:938][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.20-11.07.47:977][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.12.20-11.07.48:302][  0]LogSlate: Took 0.059444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.20-11.07.48:338][  0]LogSlate: Took 0.034101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.20-11.07.48:379][  0]LogSlate: Took 0.026684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.20-11.07.48:705][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:1).
+[2018.12.20-11.07.49:222][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.20-11.07.49:222][  0]LogLoad: (Engine Initialization) Total time: 70.39 seconds
+[2018.12.20-11.07.49:222][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.20-11.07.49:438][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.20-11.07.49:674][  0]LogSlate: Took 0.026333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.20-11.07.49:821][  2]LogAssetRegistry: Asset discovery search completed in 46.4714 seconds
+[2018.12.20-11.07.49:823][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.20-11.07.49:823][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2018.12.20-11.07.50:809][  5]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.20-11.11.47:175][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.11.49:992][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.11.58:149][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.20-11.11.59:545][221]LogEditorViewport: Clicking on Actor (LMB): AI_Character_C (ThirdPersonCharacter)
+[2018.12.20-11.12.01:754][276]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.20-11.12.02:892][407]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.20-11.12.02:896][407]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI_Character/Blueprints/AI_Character.AI_Character
+[2018.12.20-11.12.04:214][407]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.12.20-11.12.06:126][407]LogSlate: Took 0.008051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.20-11.12.08:919][485]LogSlate: Took 0.014987 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.20-11.12.10:081][513]LogRenderer: Reallocating scene render targets to support 1004x720 Format 10 NumSamples 1 (Frame:1).
+[2018.12.20-11.12.14:556][648]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton HeroTPP_Skeleton, removing AnimBP from actor.
+[2018.12.20-11.12.14:584][648]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton HeroTPP_Skeleton, removing AnimBP from actor.
+[2018.12.20-11.12.14:584][648]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton HeroTPP_Skeleton, removing AnimBP from actor.
+[2018.12.20-11.12.21:286][700]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.20-11.12.27:850][286]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.20-11.12.27:920][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:920][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Characters/HeroTPP/HeroTPP_AnimBlueprint.uasset.
+[2018.12.20-11.12.27:920][286]LoadErrors: Error: /Game/Characters/HeroTPP/HeroTPP_AnimBlueprint : Can't find file for asset. /Script/ShooterGame
+[2018.12.20-11.12.27:921][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:921][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Characters/HeroTPP/HeroTPP_AnimBlueprint.uasset.
+[2018.12.20-11.12.27:921][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:921][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Characters/HeroTPP/HeroTPP_AnimBlueprint.uasset.
+[2018.12.20-11.12.27:923][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:923][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Characters/HeroTPP/HeroTPP_AnimBlueprint.uasset.
+[2018.12.20-11.12.27:925][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:925][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:926][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:926][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:926][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:926][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:926][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:926][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:926][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:926][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:928][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:928][286]LoadErrors: Failed to load /Script/ShooterGame.ShooterCharacter Referenced by K2Node_DynamicCast_5
+[2018.12.20-11.12.27:928][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:928][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:928][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:928][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:928][286]LoadErrors: Failed to load /Script/ShooterGame.ShooterCharacter Referenced by K2Node_CallFunction_1496
+[2018.12.20-11.12.27:928][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:928][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:929][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:929][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:929][286]LoadErrors: Failed to load /Script/ShooterGame.ShooterCharacter Referenced by K2Node_CallFunction_3526
+[2018.12.20-11.12.27:929][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:930][286]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-11.12.27:930][286]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-11.12.27:973][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Target  no longer exists on node  Is Running . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:973][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Return Value  no longer exists on node  Is Running . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:973][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Could not find a function named "IsRunning" in 'HeroTPP_AnimBlueprint'.
+Make sure 'HeroTPP_AnimBlueprint' has been compiled for  Is Running
+[2018.12.20-11.12.27:974][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Target  no longer exists on node  Get Aim Offsets . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:974][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Return Value  no longer exists on node  Get Aim Offsets . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:974][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Could not find a function named "GetAimOffsets" in 'HeroTPP_AnimBlueprint'.
+Make sure 'HeroTPP_AnimBlueprint' has been compiled for  Get Aim Offsets
+[2018.12.20-11.12.27:979][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.12.20-11.12.27:979][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  As Shooter Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:980][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.12.20-11.12.27:987][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Target  no longer exists on node  Is Running . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:987][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Return Value  no longer exists on node  Is Running . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:987][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Could not find a function named "IsRunning" in 'HeroTPP_AnimBlueprint'.
+Make sure 'HeroTPP_AnimBlueprint' has been compiled for  Is Running
+[2018.12.20-11.12.27:987][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Target  no longer exists on node  Get Aim Offsets . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:987][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Return Value  no longer exists on node  Get Aim Offsets . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:987][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Could not find a function named "GetAimOffsets" in 'HeroTPP_AnimBlueprint'.
+Make sure 'HeroTPP_AnimBlueprint' has been compiled for  Get Aim Offsets
+[2018.12.20-11.12.27:987][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.12.20-11.12.27:988][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  As Shooter Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.12.20-11.12.27:988][286]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.12.20-11.12.27:999][286]LogBlueprint: Warning: [Compiler HeroTPP_AnimBlueprint] [0349,16] Compile of HeroTPP_AnimBlueprint failed. 18 Fatal Issue(s) 0 Warning(s) [in 60 ms] (/Game/Characters/HeroTPP/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint)
+[2018.12.20-11.17.50:659][ 48]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/FirstPersonExampleMap_Auto1066F1FE9447F557E1B8E51A2B103D5E4.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.12.20-11.17.50:749][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 1.206
+[2018.12.20-11.17.50:749][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.206
+[2018.12.20-11.17.50:763][ 48]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI_Character/Blueprints/AI_Character] ([1] browsable assets)...
+[2018.12.20-11.17.50:869][ 48]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI_Character/Blueprints/AI_Character.AI_Character]
+[2018.12.20-11.17.50:869][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI_Character/Blueprints/AI_Character]
+[2018.12.20-11.17.50:947][ 48]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AI_Character_Auto12C830BDC41014F481FB1D486FABC6402.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/AI_Character/Blueprints/AI_Character_Auto1.uasset'
+[2018.12.20-11.17.50:951][ 48]LogFileHelpers: Auto-saving content packages took 0.200
+[2018.12.20-11.19.07:055][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.19.12:284][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.20-11.19.19:826][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.20-11.19.25:486][200]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.20-11.19.25:494][200]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.20-11.19.31:896][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.20-11.19.36:628][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.20-11.19.40:253][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.20.08:617][164]BlueprintLog: New page: Compile AI_Character
+[2018.12.20-11.20.10:667][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.20.10:787][258]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-11.20.10:847][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.20-11.20.10:896][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.20-11.20.16:808][258]LogSlate: Window 'Message' being destroyed
+[2018.12.20-11.20.17:787][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.20.17:898][289]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Characters/HeroTPP/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint
+[2018.12.20-11.20.17:998][289]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.12.20-11.20.18:679][289]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.20-11.20.18:726][289]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.12.20-11.20.19:206][289]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.20-11.20.19:975][289]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.12.20-11.21.05:378][628]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.20-11.21.09:522][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.21.09:610][910]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-11.21.09:627][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.20-11.21.09:627][910]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.20-11.21.09:628][910]LogPlayLevel: [PlayLevel] Compiling AI_Character before play...
+[2018.12.20-11.21.09:927][910]LogPlayLevel: PlayLevel: Blueprint regeneration took 299 ms (1 blueprints)
+[2018.12.20-11.21.10:996][910]LogSlate: Window 'Message' being destroyed
+[2018.12.20-11.21.11:913][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.21.48:618][711]BlueprintLog: New page: Compile AI_Character
+[2018.12.20-11.21.49:450][729]LogSlate: Window 'AI_Character*' being destroyed
+[2018.12.20-11.21.49:463][729]LogSlate: Window 'AI_Character*' being destroyed
+[2018.12.20-11.21.50:945][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-11.21.58:393][ 56]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-11.22.14:182][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetDown.AimOffsetDown
+[2018.12.20-11.22.14:183][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetDown) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.14:202][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetFwd.AimOffsetFwd
+[2018.12.20-11.22.14:202][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetFwd) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.14:205][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetLeft.AimOffsetLeft
+[2018.12.20-11.22.14:205][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetLeft) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.14:208][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetLeftDown.AimOffsetLeftDown
+[2018.12.20-11.22.14:208][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetLeftDown) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.14:211][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetLeftUp.AimOffsetLeftUp
+[2018.12.20-11.22.14:211][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetLeftUp) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.14:214][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetRight.AimOffsetRight
+[2018.12.20-11.22.14:214][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetRight) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.14:241][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetRightDown.AimOffsetRightDown
+[2018.12.20-11.22.14:242][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetRightDown) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.14:244][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetRightUp.AimOffsetRightUp
+[2018.12.20-11.22.14:245][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetRightUp) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_7) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.14:247][ 56]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/TTP_Animations/AimOffsetUp.AimOffsetUp
+[2018.12.20-11.22.14:248][ 56]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AimOffsetUp) using current/default (AnimationCompressionAlgorithm_RemoveLinearKeys_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.20-11.22.18:075][ 59]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.12.20-11.27.51:600][617]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/FirstPersonExampleMap_Auto2EEAAABAD4764387182FF29B043BC4E8C.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2018.12.20-11.27.51:607][617]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.231
+[2018.12.20-11.27.51:607][617]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.231
+[2018.12.20-11.27.51:610][617]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI_Character/Blueprints/AI_Character] ([1] browsable assets)...
+[2018.12.20-11.27.51:643][617]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI_Character/Blueprints/AI_Character.AI_Character]
+[2018.12.20-11.27.51:644][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI_Character/Blueprints/AI_Character]
+[2018.12.20-11.27.51:672][617]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AI_Character_Auto2AED195C6460CB74164BE9FBB59B3F96B.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/AI_Character/Blueprints/AI_Character_Auto2.uasset'
+[2018.12.20-11.27.51:677][617]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/HeroTPP/HeroTPP_AnimBlueprint] ([1] browsable assets)...
+[2018.12.20-11.27.51:709][617]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/HeroTPP/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint]
+[2018.12.20-11.27.51:710][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/HeroTPP/HeroTPP_AnimBlueprint]
+[2018.12.20-11.27.51:841][617]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/HeroTPP_AnimBlueprint_Auto2976F36D6499D7DEB1679F9AFE01C0D0B.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Characters/HeroTPP/HeroTPP_AnimBlueprint_Auto2.uasset'
+[2018.12.20-11.27.51:847][617]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/HeroTPP/HeroTPP_AimOffsets] ([1] browsable assets)...
+[2018.12.20-11.27.51:872][617]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Characters/HeroTPP/HeroTPP_AimOffsets.HeroTPP_AimOffsets]
+[2018.12.20-11.27.51:872][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/HeroTPP/HeroTPP_AimOffsets]
+[2018.12.20-11.27.51:895][617]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/HeroTPP_AimOffsets_Auto24882CDBF490651BAD3DCE59167DA40B8.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Characters/HeroTPP/HeroTPP_AimOffsets_Auto2.uasset'
+[2018.12.20-11.27.51:900][617]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/HeroTPP/RunTPP] ([1] browsable assets)...
+[2018.12.20-11.27.51:925][617]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Characters/HeroTPP/RunTPP.RunTPP]
+[2018.12.20-11.27.51:926][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/HeroTPP/RunTPP]
+[2018.12.20-11.27.51:948][617]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/RunTPP_Auto2429E78B74CFCF6DC286A2E9C6E1A1CE3.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Characters/HeroTPP/RunTPP_Auto2.uasset'
+[2018.12.20-11.27.51:951][617]LogFileHelpers: Auto-saving content packages took 0.344
+[2018.12.20-12.15.36:187][976]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-12.15.37:074][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:113][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:113][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:123][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:124][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:124][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:126][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:127][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:127][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:129][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:130][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:130][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:132][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:132][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:132][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:135][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:135][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:135][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:137][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:138][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:138][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:140][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:141][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:141][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:143][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:144][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:144][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:146][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:147][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:147][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:149][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:149][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:149][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:152][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:152][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:152][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:154][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:155][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:155][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:157][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:157][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:157][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:159][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:160][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:160][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:162][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-12.15.37:162][976]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-12.15.37:162][976]LogMaterial: 	Missing Material Function
+[2018.12.20-12.15.37:178][976]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2018.12.20-12.15.37:249][976]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Characters/HeroTPP/HeroTPP.HeroTPP
+[2018.12.20-12.15.37:292][976]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2018.12.20-12.15.37:310][976]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Characters/HeroTPP/HeroTPP.HeroTPP
+[2018.12.20-12.15.37:316][976]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2018.12.20-12.15.37:334][976]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Characters/HeroTPP/HeroTPP.HeroTPP
+[2018.12.20-12.15.51:435][847]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-12.16.41:402][725]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-12.17.23:937][853]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AI_Character/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2018.12.20-12.17.24:002][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.20-12.17.24:135][853]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.20-16.12.19:715][555]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.12.20-16.12.20:216][556]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.12.20-16.17.23:614][461]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.12.20-16.17.29:675][479]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.12.20-16.17.30:176][480]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.12.20-16.17.30:677][481]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.12.20-16.18.17:980][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.17:980][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Characters/HeroTPP/HeroTPP_AnimBlueprint.uasset.
+[2018.12.20-16.18.17:981][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.17:981][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Characters/HeroTPP/HeroTPP_AnimBlueprint.uasset.
+[2018.12.20-16.18.17:981][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.17:981][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Characters/HeroTPP/HeroTPP_AnimBlueprint.uasset.
+[2018.12.20-16.18.17:983][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.17:983][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Characters/HeroTPP/HeroTPP_AnimBlueprint.uasset.
+[2018.12.20-16.18.18:013][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:013][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:013][981]LoadErrors: Error: /Game/Blueprints/Pawns/BotPawn : Can't find file for asset. /Script/ShooterGame
+[2018.12.20-16.18.18:014][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:014][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:014][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:014][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:014][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:014][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:014][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:014][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:035][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:035][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:035][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:035][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:035][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:036][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:036][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:036][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:037][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:037][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:037][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:037][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:094][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Target  no longer exists on node  Is Running . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:094][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Return Value  no longer exists on node  Is Running . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:094][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Could not find a function named "IsRunning" in 'HeroTPP_AnimBlueprint'.
+Make sure 'HeroTPP_AnimBlueprint' has been compiled for  Is Running
+[2018.12.20-16.18.18:095][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Target  no longer exists on node  Get Aim Offsets . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:095][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Return Value  no longer exists on node  Get Aim Offsets . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:095][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Could not find a function named "GetAimOffsets" in 'HeroTPP_AnimBlueprint'.
+Make sure 'HeroTPP_AnimBlueprint' has been compiled for  Get Aim Offsets
+[2018.12.20-16.18.18:096][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.12.20-16.18.18:096][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  As Shooter Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:096][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.12.20-16.18.18:107][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Target  no longer exists on node  Is Running . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:107][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Return Value  no longer exists on node  Is Running . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:107][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Could not find a function named "IsRunning" in 'HeroTPP_AnimBlueprint'.
+Make sure 'HeroTPP_AnimBlueprint' has been compiled for  Is Running
+[2018.12.20-16.18.18:107][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Target  no longer exists on node  Get Aim Offsets . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:108][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  Return Value  no longer exists on node  Get Aim Offsets . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:108][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Could not find a function named "GetAimOffsets" in 'HeroTPP_AnimBlueprint'.
+Make sure 'HeroTPP_AnimBlueprint' has been compiled for  Get Aim Offsets
+[2018.12.20-16.18.18:108][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.12.20-16.18.18:108][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] In use pin  As Shooter Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.12.20-16.18.18:108][981]LogBlueprint: Error: [Compiler HeroTPP_AnimBlueprint] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.12.20-16.18.18:115][981]LogBlueprint: Warning: [Compiler HeroTPP_AnimBlueprint] [8699,28] Compile of HeroTPP_AnimBlueprint failed. 18 Fatal Issue(s) 0 Warning(s) [in 66 ms] (/Game/Characters/HeroTPP/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint)
+[2018.12.20-16.18.18:115][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:116][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:116][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:116][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:116][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:116][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:116][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:116][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:233][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:233][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:233][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:233][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:233][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:233][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading ../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/Blueprints/Pawns/BotPawn.uasset.
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Pawns/BotPawn.BotPawn_C
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Pawns/BotPawn.BotPawn_C
+[2018.12.20-16.18.18:234][981]LogLinker: Warning: Unable to load Default__BotPawn_C with outer Package /Game/Blueprints/Pawns/BotPawn because its class does not exist
+[2018.12.20-16.18.18:245][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:246][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-16.18.18:246][981]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Pawns/BotPawn.BotPawn_C
+[2018.12.20-16.18.18:246][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:246][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-16.18.18:246][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:246][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-16.18.18:246][981]LogLinker: Warning: Unable to load CharMoveComp with outer BotPawn_C /Game/Blueprints/Pawns/BotPawn.Default__BotPawn_C because its class does not exist
+[2018.12.20-16.18.18:560][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:560][981]LoadErrors: Failed to load /Script/ShooterGame.ShooterBot Referenced by BotPawn
+[2018.12.20-16.18.18:560][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-16.18.18:561][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:561][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-16.18.18:561][981]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Pawns/BotPawn.BotPawn_C
+[2018.12.20-16.18.18:561][981]LogLinker: Warning: Can't find file '/Script/ShooterGame'
+[2018.12.20-16.18.18:561][981]LoadErrors: Failed to load /Script/ShooterGame.ShooterBot Referenced by PackageMetaData
+[2018.12.20-16.18.18:561][981]LogLinker: Warning: Can't find file for asset '/Script/ShooterGame' while loading NULL.
+[2018.12.20-16.18.18:561][981]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Pawns/BotPawn.BotPawn_C
+[2018.12.20-16.18.20:220][981]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BotPawn_C /Game/Blueprints/Pawns/BotPawn.Default__BotPawn_C
+[2018.12.20-16.18.20:220][981]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BotPawn_C /Game/Blueprints/Pawns/BotPawn.Default__BotPawn_C
+[2018.12.20-16.18.20:220][981]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0__57659476': BlueprintGeneratedClass /Game/Blueprints/Pawns/BotPawn.BotPawn_C
+[2018.12.20-16.18.20:220][981]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_9': SimpleConstructionScript /Game/Blueprints/Pawns/BotPawn.BotPawn_C:SimpleConstructionScript_0__57659476
+[2018.12.20-16.18.20:220][981]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': BotPawn_C /Game/Blueprints/Pawns/BotPawn.Default__BotPawn_C
+[2018.12.20-16.18.20:220][981]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PawnMesh1P': BotPawn_C /Game/Blueprints/Pawns/BotPawn.Default__BotPawn_C
+[2018.12.20-16.18.30:229][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-16.18.36:088][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.20-16.21.15:914][265]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BotPawn.BotPawn
+[2018.12.20-16.21.18:663][265]LogSlate: Window 'Message' being destroyed
+[2018.12.20-16.35.18:444][943]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-16.35.26:314][246]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-16.35.26:344][246]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2018.12.20-16.35.27:444][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:445][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:445][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:447][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:448][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:448][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:450][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:451][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:468][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:471][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:471][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:471][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:474][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:474][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:474][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:477][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:477][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:477][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:480][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:480][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:480][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:483][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:483][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:483][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:485][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:486][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:486][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:488][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:488][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:488][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:490][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:491][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:491][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:493][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:494][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:494][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:496][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:496][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:496][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:498][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:499][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:499][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:501][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:501][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:501][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:503][246]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2018.12.20-16.35.27:504][246]LogMaterial: Warning: C:\Users\gmloukie\Documents\GitHub\TGP-Duos\TGP_Duos\Content\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.20-16.35.27:504][246]LogMaterial: 	Missing Material Function
+[2018.12.20-16.35.27:524][246]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2018.12.20-16.35.27:563][246]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Characters/HeroTPP/HeroTPP.HeroTPP
+[2018.12.20-16.35.27:625][246]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2018.12.20-16.35.27:648][246]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/Characters/HeroTPP/HeroTPP.HeroTPP
+[2018.12.20-16.35.27:653][246]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2018.12.20-16.35.27:674][246]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Characters/HeroTPP/HeroTPP.HeroTPP
+[2018.12.20-16.35.37:127][567]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-16.35.38:080][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.028
+[2018.12.20-16.35.38:083][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/Run_Rt] ([1] browsable assets)...
+[2018.12.20-16.35.38:087][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/Run_Rt.Run_Rt]
+[2018.12.20-16.35.38:087][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/Run_Rt]
+[2018.12.20-16.35.38:142][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Run_Rt_Auto3C15520454D1CF06358A7C897E15B6017.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/Run_Rt_Auto3.uasset'
+[2018.12.20-16.35.38:148][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/Run_Lt] ([1] browsable assets)...
+[2018.12.20-16.35.38:152][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/Run_Lt.Run_Lt]
+[2018.12.20-16.35.38:152][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/Run_Lt]
+[2018.12.20-16.35.38:171][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Run_Lt_Auto380E8C2FC4FC3D2A2E95558991AE195D3.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/Run_Lt_Auto3.uasset'
+[2018.12.20-16.35.38:176][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/Run_Fwd] ([1] browsable assets)...
+[2018.12.20-16.35.38:180][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/Run_Fwd.Run_Fwd]
+[2018.12.20-16.35.38:180][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/Run_Fwd]
+[2018.12.20-16.35.38:199][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Run_Fwd_Auto33D48918F4F9FE6B11BA7BE90AE5CC747.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/Run_Fwd_Auto3.uasset'
+[2018.12.20-16.35.38:204][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/Run_Bwd] ([1] browsable assets)...
+[2018.12.20-16.35.38:209][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/Run_Bwd.Run_Bwd]
+[2018.12.20-16.35.38:209][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/Run_Bwd]
+[2018.12.20-16.35.38:229][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Run_Bwd_Auto36B4F84C1470ED38D5200B59E3629DEA4.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/Run_Bwd_Auto3.uasset'
+[2018.12.20-16.35.38:234][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetUp] ([1] browsable assets)...
+[2018.12.20-16.35.38:238][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetUp.AimOffsetUp]
+[2018.12.20-16.35.38:238][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetUp]
+[2018.12.20-16.35.38:256][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetUp_Auto3EE1425024700DDA91126C99B1CB7595C.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetUp_Auto3.uasset'
+[2018.12.20-16.35.38:261][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetRightUp] ([1] browsable assets)...
+[2018.12.20-16.35.38:265][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetRightUp.AimOffsetRightUp]
+[2018.12.20-16.35.38:265][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetRightUp]
+[2018.12.20-16.35.38:285][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetRightUp_Auto3810E77B44A1CBEFDAA1CB0AFC46C22FB.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetRightUp_Auto3.uasset'
+[2018.12.20-16.35.38:289][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetRightDown] ([1] browsable assets)...
+[2018.12.20-16.35.38:294][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetRightDown.AimOffsetRightDown]
+[2018.12.20-16.35.38:294][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetRightDown]
+[2018.12.20-16.35.38:312][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetRightDown_Auto3D851312D48026D17BA0233AEDD98ADBA.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetRightDown_Auto3.uasset'
+[2018.12.20-16.35.38:317][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetRight] ([1] browsable assets)...
+[2018.12.20-16.35.38:321][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetRight.AimOffsetRight]
+[2018.12.20-16.35.38:321][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetRight]
+[2018.12.20-16.35.38:340][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetRight_Auto3A06526CE48136B16907896AC216456BE.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetRight_Auto3.uasset'
+[2018.12.20-16.35.38:345][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetLeftUp] ([1] browsable assets)...
+[2018.12.20-16.35.38:349][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetLeftUp.AimOffsetLeftUp]
+[2018.12.20-16.35.38:349][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetLeftUp]
+[2018.12.20-16.35.38:368][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetLeftUp_Auto3973E1FA14E11584DD7B0B5ADD81E2BB6.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetLeftUp_Auto3.uasset'
+[2018.12.20-16.35.38:373][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetLeftDown] ([1] browsable assets)...
+[2018.12.20-16.35.38:377][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetLeftDown.AimOffsetLeftDown]
+[2018.12.20-16.35.38:377][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetLeftDown]
+[2018.12.20-16.35.38:396][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetLeftDown_Auto35278758F429A3D3FBEC7FC8109D88081.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetLeftDown_Auto3.uasset'
+[2018.12.20-16.35.38:401][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetLeft] ([1] browsable assets)...
+[2018.12.20-16.35.38:430][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetLeft.AimOffsetLeft]
+[2018.12.20-16.35.38:431][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetLeft]
+[2018.12.20-16.35.38:450][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetLeft_Auto37DA15CB94FC298558FAF9A9C6256164F.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetLeft_Auto3.uasset'
+[2018.12.20-16.35.38:455][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetFwd] ([1] browsable assets)...
+[2018.12.20-16.35.38:460][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetFwd.AimOffsetFwd]
+[2018.12.20-16.35.38:460][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetFwd]
+[2018.12.20-16.35.38:479][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetFwd_Auto3B960A3DE4A28125AD77A938BDBC4AC08.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetFwd_Auto3.uasset'
+[2018.12.20-16.35.38:485][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/Idle] ([1] browsable assets)...
+[2018.12.20-16.35.38:489][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/Idle.Idle]
+[2018.12.20-16.35.38:489][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/Idle]
+[2018.12.20-16.35.38:508][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Idle_Auto3767F7E054BFA73AE2F633DB46435707E.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/Idle_Auto3.uasset'
+[2018.12.20-16.35.38:513][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/AimOffsetDown] ([1] browsable assets)...
+[2018.12.20-16.35.38:518][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/AimOffsetDown.AimOffsetDown]
+[2018.12.20-16.35.38:518][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/AimOffsetDown]
+[2018.12.20-16.35.38:554][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AimOffsetDown_Auto305CB3ABC451E295C47F900BCADF5FC1C.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/AimOffsetDown_Auto3.uasset'
+[2018.12.20-16.35.38:559][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/RoadieRun_Fwd] ([1] browsable assets)...
+[2018.12.20-16.35.38:563][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/RoadieRun_Fwd.RoadieRun_Fwd]
+[2018.12.20-16.35.38:563][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/RoadieRun_Fwd]
+[2018.12.20-16.35.38:583][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/RoadieRun_Fwd_Auto3D8B56A7D440A1411365B3EB879EAB91A.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/RoadieRun_Fwd_Auto3.uasset'
+[2018.12.20-16.35.38:588][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/JumpStart] ([1] browsable assets)...
+[2018.12.20-16.35.38:592][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/JumpStart.JumpStart]
+[2018.12.20-16.35.38:592][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/JumpStart]
+[2018.12.20-16.35.38:612][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/JumpStart_Auto341E4C5C94980E48D71DAF38657523F43.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/JumpStart_Auto3.uasset'
+[2018.12.20-16.35.38:617][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/JumpLoop] ([1] browsable assets)...
+[2018.12.20-16.35.38:621][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/JumpLoop.JumpLoop]
+[2018.12.20-16.35.38:621][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/JumpLoop]
+[2018.12.20-16.35.38:642][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/JumpLoop_Auto36B4126014680BE4DCC155BAE907028EE.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/JumpLoop_Auto3.uasset'
+[2018.12.20-16.35.38:647][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/JumpEnd] ([1] browsable assets)...
+[2018.12.20-16.35.38:651][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/JumpEnd.JumpEnd]
+[2018.12.20-16.35.38:651][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/JumpEnd]
+[2018.12.20-16.35.38:693][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/JumpEnd_Auto3381D59694587EF10F6693C961A8DE14F.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/JumpEnd_Auto3.uasset'
+[2018.12.20-16.35.38:701][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/TTP_Animations/Equip] ([1] browsable assets)...
+[2018.12.20-16.35.38:705][620]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/TTP_Animations/Equip.Equip]
+[2018.12.20-16.35.38:705][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/TTP_Animations/Equip]
+[2018.12.20-16.35.38:846][620]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Equip_Auto3C46ADC7740324E99118AADBDD024B6D2.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/Animations/TTP_Animations/Equip_Auto3.uasset'
+[2018.12.20-16.35.38:852][620]LogFileHelpers: Auto-saving content packages took 0.772
+[2018.12.20-16.35.46:896][807]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-16.36.12:353][ 12]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.20-16.36.24:159][351]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/AI_Character/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2018.12.20-16.36.24:248][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.20-16.36.24:731][351]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.20-16.36.51:891][110]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/AI_Character/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D
+[2018.12.20-16.36.51:983][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.20-16.36.52:116][110]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.20-16.36.52:866][110]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.12.20-16.37.22:104][480]LogSlate: Window 'ThirdPerson_IdleRun_2D' being destroyed
+[2018.12.20-16.37.22:106][480]LogSlate: Window 'ThirdPerson_IdleRun_2D' being destroyed
+[2018.12.20-16.37.30:724][839]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/AI_Character/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D
+[2018.12.20-16.37.30:732][839]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.20-16.37.30:766][839]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.20-16.37.31:189][839]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.12.20-16.37.42:809][136]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/AI_Character/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump
+[2018.12.20-16.37.48:841][245]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/AI_Character/Mannequin/Animations/ThirdPersonIdle.ThirdPersonIdle
+[2018.12.20-16.37.53:357][349]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/AI_Character/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2018.12.20-16.37.57:106][432]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/AI_Character/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2018.12.20-16.38.00:517][508]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/AI_Character/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun
+[2018.12.20-16.38.03:198][565]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/AI_Character/Mannequin/Animations/ThirdPersonWalk.ThirdPersonWalk
+[2018.12.20-16.38.18:472][913]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AI_Character/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2018.12.20-16.38.18:509][913]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.20-16.38.18:535][913]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.20-16.38.25:660][ 44]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/AI_Character/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.12.20-16.38.25:711][ 44]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.20-16.38.25:814][ 44]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.21-07.25.05:050][819]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.21-08.09.08:343][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-08.29.37:978][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-08.29.39:336][944]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI_Character/Blueprints/AI_Character.AI_Character
+[2018.12.21-13.40.05:964][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-13.40.08:818][750]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.12.21-13.40.11:596][778]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.12.21-13.41.11:147][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.21-13.41.12:391][847]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/FirstPersonExampleMap_Auto4BA4C5F864B9B71AF9F814EA8796327F6.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2018.12.21-13.41.12:399][847]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 1.161
+[2018.12.21-13.41.12:399][847]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.161
+[2018.12.21-13.41.12:404][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.12.21-13.41.12:446][847]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2018.12.21-13.41.12:446][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter]
+[2018.12.21-13.41.12:483][847]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/FirstPersonCharacter_Auto4214971794F3D0302737ECB901AB0B1A1.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2018.12.21-13.41.12:486][847]LogFileHelpers: Auto-saving content packages took 0.085
+[2018.12.21-13.41.48:133][489]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.21-13.41.52:264][555]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.21-13.41.52:274][555]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.21-13.42.12:295][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-13.42.15:498][ 91]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.12.21-13.42.20:307][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-13.42.20:377][193]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.21-13.42.20:398][193]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.21-13.42.20:398][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.21-13.42.20:736][193]PIE: New page: PIE session: FirstPersonExampleMap (21 Δεκ 2018 - 5:42:20 μ.μ.)
+[2018.12.21-13.42.20:748][193]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.12.21-13.42.20:873][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124787s)
+[2018.12.21-13.42.20:890][193]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.21-13.42.20:897][193]LogPlayLevel: PIE: World Init took: (0.007969s)
+[2018.12.21-13.42.20:908][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.160338s)
+[2018.12.21-13.42.21:041][193]LogInit: XAudio2 using 'Ηχεία / Ακουστικά (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.21-13.42.21:122][193]LogInit: FAudioDevice initialized.
+[2018.12.21-13.42.21:219][193]LogLoad: Game class is 'TGP_DuosGameMode'
+[2018.12.21-13.42.21:268][193]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.12.21-15.42.21
+[2018.12.21-13.42.21:461][193]LogWorld: Bringing up level for play took: 0.236469
+[2018.12.21-13.42.21:772][193]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0038 seconds. Added 10 classes and 0 folders.
+[2018.12.21-13.42.21:940][193]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1,336
+[2018.12.21-13.42.21:941][193]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.21-13.42.23:066][211]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.42.23:568][224]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.42.24:052][242]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.42.24:631][263]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.42.25:069][279]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.42.25:254][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.21-13.42.25:274][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.21-13.42.25:456][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.21-13.42.25:457][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.21-13.42.25:564][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.21-13.42.25:644][286]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.12.21-13.42.28:408][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-13.42.32:990][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-13.43.12:883][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.21-13.43.12:891][255]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.21-13.43.38:756][726]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.21-13.43.56:198][  4]BlueprintLog: New page: Compile AI_Character
+[2018.12.21-13.43.58:625][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-13.43.58:709][ 64]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.21-13.43.58:729][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.21-13.43.58:729][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.21-13.43.58:729][ 64]PIE: New page: PIE session: FirstPersonExampleMap (21 Δεκ 2018 - 5:43:58 μ.μ.)
+[2018.12.21-13.43.58:729][ 64]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.12.21-13.43.58:744][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014198s)
+[2018.12.21-13.43.58:745][ 64]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.21-13.43.58:745][ 64]LogPlayLevel: PIE: World Init took: (0.001751s)
+[2018.12.21-13.43.58:745][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016110s)
+[2018.12.21-13.43.58:779][ 64]LogInit: XAudio2 using 'Ηχεία / Ακουστικά (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.21-13.43.58:797][ 64]LogInit: FAudioDevice initialized.
+[2018.12.21-13.43.58:829][ 64]LogLoad: Game class is 'TGP_DuosGameMode'
+[2018.12.21-13.43.58:831][ 64]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.12.21-15.43.58
+[2018.12.21-13.43.58:832][ 64]LogWorld: Bringing up level for play took: 0.002839
+[2018.12.21-13.43.58:845][ 64]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0,241
+[2018.12.21-13.43.58:845][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.21-13.43.59:194][ 75]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.43.59:786][ 97]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.00:212][113]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.00:660][130]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.01:087][146]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.01:676][168]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.02:220][188]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.02:805][209]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.03:369][230]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.03:875][249]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.04:409][269]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.04:846][285]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.05:458][307]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.05:888][322]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.06:351][339]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.06:850][357]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.07:429][378]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.08:011][399]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.08:594][420]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.09:024][436]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.09:607][458]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.10:199][480]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.10:683][498]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.11:215][518]LogBlueprintUserMessages: [BTS_SightCheck_C_0] true
+[2018.12.21-13.44.11:531][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.21-13.44.11:532][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.21-13.44.11:587][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.21-13.44.11:587][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.21-13.44.11:625][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.21-13.44.11:681][531]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.12.21-13.44.14:891][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-13.44.24:372][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-13.51.30:530][104]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.21-13.51.30:795][104]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/FirstPersonExampleMap_Auto5DDB2CCBC4FCC1C52B2B6268DC2622532.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2018.12.21-13.51.30:802][104]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.230
+[2018.12.21-13.51.30:802][104]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
+[2018.12.21-13.51.30:806][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI_Character/Blueprints/AI_Character] ([1] browsable assets)...
+[2018.12.21-13.51.30:834][104]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI_Character/Blueprints/AI_Character.AI_Character]
+[2018.12.21-13.51.30:834][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI_Character/Blueprints/AI_Character]
+[2018.12.21-13.51.30:885][104]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AI_Character_Auto518EEB0C04447617A6B5BDEA89C721D7F.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/AI_Character/Blueprints/AI_Character_Auto5.uasset'
+[2018.12.21-13.51.30:890][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.12.21-13.51.30:916][104]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2018.12.21-13.51.30:916][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter]
+[2018.12.21-13.51.30:949][104]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/FirstPersonCharacter_Auto536649659475F5A212B0222A51915942E.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2018.12.21-13.51.30:952][104]LogFileHelpers: Auto-saving content packages took 0.149
+[2018.12.21-14.46.24:081][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-14.56.50:244][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.21-16.03.00:656][742]LogHttp: Warning: 0000015F02706340: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.12.21-16.03.00:656][742]LogHttp: Warning: 0000015F02706340: libcurl info message cache 0 (Connection 773 seems to be dead!)
+[2018.12.21-16.03.00:670][742]LogHttp: Warning: 0000015F02706340: libcurl info message cache 1 (Closing connection 773)
+[2018.12.21-16.03.00:670][742]LogHttp: Warning: 0000015F02706340: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.12.21-16.03.00:683][742]LogHttp: Warning: 0000015F02706340: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.12.21-16.03.00:683][742]LogHttp: Warning: 0000015F02706340: libcurl info message cache 4 (Closing connection 774)
+[2018.12.22-07.34.39:367][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.22-08.57.14:251][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.22-10.06.56:550][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.22-10.07.11:200][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.22-10.07.13:007][558]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.12.22-10.07.14:049][558]Candidate modules for hot reload:
+[2018.12.22-10.07.14:049][558]  TGP_Duos
+[2018.12.22-10.07.14:131][558]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TGP_Duos,8331 Win64 Development -TargetType=Editor -Project="../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/TGP_Duos.uproject" -canskiplink "C:/Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/TGP_Duos.uproject" ]
+[2018.12.22-10.07.14:274][558]Warning: Starting HotReload took  1.5s.
+[2018.12.22-10.07.41:068][447]CompilerResultsLog: New page: Compilation - 22 Δεκ 2018 - 2:07:40 μ.μ.
+[2018.12.22-10.07.41:143][447]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.12.22-10.07.41:143][447]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.22-10.07.41:143][447]CompilerResultsLog: Creating makefile for hot reloading TGP_DuosEditor (.uproject file is newer)
+[2018.12.22-10.07.41:143][447]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.22-10.07.41:143][447]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.22-10.07.41:143][447]CompilerResultsLog: Target is up to date
+[2018.12.22-10.07.41:143][447]CompilerResultsLog: Total build time: 24,08 seconds (NoActionsToExecute executor: 0,01 seconds)
+[2018.12.22-10.07.41:164][447]LogMainFrame: MainFrame: Module compiling took 28.156 seconds
+[2018.12.22-10.08.17:135][447]LogContentBrowser: Native class hierarchy populated in 1.0172 seconds. Added 2580 classes and 609 folders.
+[2018.12.22-10.08.17:160][447]Display: HotReload took 64.3s.
+[2018.12.22-10.08.53:404][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.22-10.08.53:700][981]LogSlate: Window 'AI_Character*' being destroyed
+[2018.12.22-10.08.53:793][981]LogSlate: Window 'AI_Character*' being destroyed
+[2018.12.22-10.08.54:161][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.22-10.09.03:689][981]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.22-10.09.17:143][175]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.22-10.09.32:159][175]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/FirstPersonExampleMap4D13E01C436AD5799FD97A8AA323930E.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2018.12.22-10.09.33:348][175]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 16.139
+[2018.12.22-10.09.33:702][175]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/AI_Character91462E3D424984D80FF6B181D9B59B5F.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/AI_Character/Blueprints/AI_Character.uasset'
+[2018.12.22-10.09.33:854][175]LogSavePackage: Moving '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Saved/FirstPersonCharacterA0F62CBE4DE5422F5BF6E998ADBF383C.tmp' to '../../../../../../Users/gmloukie/Documents/GitHub/TGP-Duos/TGP_Duos/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2018.12.22-10.09.37:833][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.22-10.09.48:549][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.22-10.09.54:114][838]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.12.22-10.09.54:488][838]LogSlate: Window 'TGP_Duos - Unreal Editor' being destroyed
+[2018.12.22-10.09.54:601][838]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.22-10.10.02:811][839]Cmd: QUIT_EDITOR
+[2018.12.22-10.10.08:972][839]LogExit: Preparing to exit.
+[2018.12.22-10.10.31:817][839]LogExit: Editor shut down
+[2018.12.22-10.10.32:780][839]LogExit: Transaction tracking system shut down
+[2018.12.22-10.10.54:374][839]LogExit: Object subsystem successfully closed.
+[2018.12.22-10.10.55:292][839]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.22-10.10.55:709][839]LogD3D11RHI: Shutdown
+[2018.12.22-10.10.55:710][839]LogD3D11RHI: CleanupD3DDevice
+[2018.12.22-10.10.56:777][839]LogD3D11RHI: ~FD3D11DynamicRHI
