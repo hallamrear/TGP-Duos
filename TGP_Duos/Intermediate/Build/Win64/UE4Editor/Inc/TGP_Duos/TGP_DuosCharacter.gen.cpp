@@ -19,12 +19,13 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_TGP_Duos();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	TGP_DUOS_API UClass* Z_Construct_UClass_ATGP_DuosProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMesh_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	TGP_DUOS_API UClass* Z_Construct_UClass_ABase_Weapon_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
 	void ATGP_DuosCharacter::StaticRegisterNativesATGP_DuosCharacter()
@@ -41,11 +42,6 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUsingMotionControllers_MetaData[];
-#endif
-		static void NewProp_bUsingMotionControllers_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUsingMotionControllers;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireAnimation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireAnimation;
@@ -53,10 +49,6 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunOffset_MetaData[];
 #endif
@@ -70,33 +62,33 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_muzzleLocation_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_L_MotionController;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_muzzleLocation;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_R_MotionController_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_tempBodyAsset_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_R_MotionController;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_tempBodyAsset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weaponMesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_weaponMesh;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weaponThree_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_weaponThree;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weaponTwo_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_weaponTwo;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weaponOne_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_weaponOne;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FirstPersonCameraComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VR_MuzzleLocation_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VR_MuzzleLocation;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VR_Gun_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VR_Gun;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FP_MuzzleLocation_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_MuzzleLocation;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FP_Gun_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_Gun;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh1P_MetaData[];
 #endif
@@ -117,18 +109,6 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_bUsingMotionControllers_MetaData[] = {
-		{ "Category", "Gameplay" },
-		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
-		{ "ToolTip", "Whether to use motion controller location for aiming." },
-	};
-#endif
-	void Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_bUsingMotionControllers_SetBit(void* Obj)
-	{
-		((ATGP_DuosCharacter*)Obj)->bUsingMotionControllers = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_bUsingMotionControllers = { UE4CodeGen_Private::EPropertyClass::Bool, "bUsingMotionControllers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(uint8), UE4CodeGen_Private::ENativeBool::NotNative, sizeof(ATGP_DuosCharacter), &Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_bUsingMotionControllers_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_bUsingMotionControllers_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_bUsingMotionControllers_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FireAnimation_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
@@ -144,14 +124,6 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FireSound = { UE4CodeGen_Private::EPropertyClass::Object, "FireSound", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FireSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FireSound_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_ProjectileClass_MetaData[] = {
-		{ "Category", "Projectile" },
-		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
-		{ "ToolTip", "Projectile class to spawn" },
-	};
-#endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_ProjectileClass = { UE4CodeGen_Private::EPropertyClass::Class, "ProjectileClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010001, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, ProjectileClass), Z_Construct_UClass_ATGP_DuosProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_ProjectileClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_ProjectileClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_GunOffset_MetaData[] = {
 		{ "Category", "Gameplay" },
@@ -177,25 +149,49 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_BaseTurnRate = { UE4CodeGen_Private::EPropertyClass::Float, "BaseTurnRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_L_MotionController_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "TGP_DuosCharacter" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_muzzleLocation_MetaData[] = {
+		{ "Category", "Weapon" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
-		{ "ToolTip", "Motion controller (left hand)" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_L_MotionController = { UE4CodeGen_Private::EPropertyClass::Object, "L_MotionController", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, L_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_L_MotionController_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_L_MotionController_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_muzzleLocation = { UE4CodeGen_Private::EPropertyClass::Object, "muzzleLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, muzzleLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_muzzleLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_muzzleLocation_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_R_MotionController_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_tempBodyAsset_MetaData[] = {
 		{ "Category", "TGP_DuosCharacter" },
-		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
-		{ "ToolTip", "Motion controller (right hand)" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_R_MotionController = { UE4CodeGen_Private::EPropertyClass::Object, "R_MotionController", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, R_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_R_MotionController_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_R_MotionController_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_tempBodyAsset = { UE4CodeGen_Private::EPropertyClass::Object, "tempBodyAsset", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000030001, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, tempBodyAsset), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_tempBodyAsset_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_tempBodyAsset_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponMesh_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponMesh = { UE4CodeGen_Private::EPropertyClass::Object, "weaponMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000090009, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, weaponMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponMesh_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponThree_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponThree = { UE4CodeGen_Private::EPropertyClass::Class, "weaponThree", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000010001, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, weaponThree), Z_Construct_UClass_ABase_Weapon_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponThree_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponThree_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponTwo_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponTwo = { UE4CodeGen_Private::EPropertyClass::Class, "weaponTwo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000010001, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, weaponTwo), Z_Construct_UClass_ABase_Weapon_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponTwo_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponTwo_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponOne_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponOne = { UE4CodeGen_Private::EPropertyClass::Class, "weaponOne", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000010001, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, weaponOne), Z_Construct_UClass_ABase_Weapon_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponOne_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponOne_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -207,42 +203,6 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FirstPersonCameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "FirstPersonCameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
-		{ "ToolTip", "Location on VR gun mesh where projectiles should spawn." },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_MuzzleLocation = { UE4CodeGen_Private::EPropertyClass::Object, "VR_MuzzleLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, VR_MuzzleLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_Gun_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
-		{ "ToolTip", "Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun)" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_Gun = { UE4CodeGen_Private::EPropertyClass::Object, "VR_Gun", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, VR_Gun), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_Gun_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_Gun_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
-		{ "ToolTip", "Location on gun mesh where projectiles should spawn." },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_MuzzleLocation = { UE4CodeGen_Private::EPropertyClass::Object, "FP_MuzzleLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, FP_MuzzleLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_Gun_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "TGP_DuosCharacter.h" },
-		{ "ToolTip", "Gun mesh: 1st person view (seen only by self)" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_Gun = { UE4CodeGen_Private::EPropertyClass::Object, "FP_Gun", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, FP_Gun), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_Gun_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_Gun_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_Mesh1P_MetaData[] = {
 		{ "Category", "Mesh" },
 		{ "EditInline", "true" },
@@ -252,20 +212,18 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ATGP_DuosCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_Mesh1P_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATGP_DuosCharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_bUsingMotionControllers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FireAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FireSound,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_ProjectileClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_BaseTurnRate,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_L_MotionController,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_R_MotionController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_muzzleLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_tempBodyAsset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponThree,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponTwo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_weaponOne,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FirstPersonCameraComponent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_MuzzleLocation,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_VR_Gun,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_MuzzleLocation,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_FP_Gun,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATGP_DuosCharacter_Statics::NewProp_Mesh1P,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATGP_DuosCharacter_Statics::StaticCppClassTypeInfo = {
@@ -291,7 +249,7 @@ void EmptyLinkFunctionForGeneratedCodeTGP_DuosCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATGP_DuosCharacter, 2957479989);
+	IMPLEMENT_CLASS(ATGP_DuosCharacter, 869437418);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATGP_DuosCharacter(Z_Construct_UClass_ATGP_DuosCharacter, &ATGP_DuosCharacter::StaticClass, TEXT("/Script/TGP_Duos"), TEXT("ATGP_DuosCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATGP_DuosCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

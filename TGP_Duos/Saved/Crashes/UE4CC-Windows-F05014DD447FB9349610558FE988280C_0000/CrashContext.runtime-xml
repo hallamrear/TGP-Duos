@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-F05014DD447FB9349610558FE988280C_0000</CrashGUID>
+		<ProcessId>11360</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-TGP_Duos</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.20.3-4369336+++UE4+Release-4.20</EngineVersion>
+		<CommandLine>&quot;E:\Repos\Uni\TGP-Duos\TGP_Duos\TGP_Duos.uproject&quot;</CommandLine>
+		<LanguageLCID>1033</LanguageLCID>
+		<AppDefaultLocale>en-GB</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.20-CL-4369336</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>r017093h</UserName>
+		<BaseDir>C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Epic/UE4/UE_4.20/</RootDir>
+		<MachineId>B6698D604CF8494B45CCCBBD8EA0F696</MachineId>
+		<LoginId>b6698d604cf8494b45cccbbd8ea0f696</LoginId>
+		<EpicAccountId />
+		<CallStack />
+		<PCallStack>UE4Editor-CoreUObject 0x00000000afaa0000 + 3e696 UE4Editor-TGP_Duos-2573 0x0000000082730000 + 239e UE4Editor-TGP_Duos-2573 0x0000000082730000 + 26d5 UE4Editor-CoreUObject 0x00000000afaa0000 + 13aafd UE4Editor-CoreUObject 0x00000000afaa0000 + 41dcf8 UE4Editor-CoreUObject 0x00000000afaa0000 + 3fda9f UE4Editor-CoreUObject 0x00000000afaa0000 + 140a57 UE4Editor-Core 0x00000000b0130000 + 12e08e UE4Editor-Core 0x00000000b0130000 + 2e7851 UE4Editor-Projects 0x00000000da030000 + 1d11c UE4Editor-Projects 0x00000000da030000 + 1d404 UE4Editor 0x0000000006cf0000 + 18521 UE4Editor 0x0000000006cf0000 + 1d907 UE4Editor 0x0000000006cf0000 + 15968 UE4Editor 0x0000000006cf0000 + 15bba UE4Editor 0x0000000006cf0000 + 23dac UE4Editor 0x0000000006cf0000 + 25aaa KERNEL32 0x00000000ecbc0000 + 13034 ntdll 0x00000000eefb0000 + 71471</PCallStack>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage />
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 980</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName />
+		<MemoryStats.TotalPhysical>17092296704</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636784779916440000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TGP_Duos.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{77F1313A-278D-4378-AED3-BFF04E4B8E5D}</UniqueIdentifier>
+			<UniqueIdentifier>{54B3D4A2-C442-45FB-83FC-F37892A108EE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TGP_Duos.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{4E81C099-27EE-4DE0-92F3-DA6BDF8DEE08}</UniqueIdentifier>
+			<UniqueIdentifier>{4518AF6E-7B6F-4F66-A1E7-DC1BC90210E0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,20 +31,8 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TGP_Duos">
-			<UniqueIdentifier>{EA57A1DA-B5BE-4A01-B134-8586718A5A28}</UniqueIdentifier>
+			<UniqueIdentifier>{0C4A57D8-A379-4FBD-8DB0-1A3578DA37CF}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\Source\TGP_Duos\Jump_Pad.cpp">
-			<Filter>Source\TGP_Duos</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TGP_Duos\Jump_Pad.h">
-			<Filter>Source\TGP_Duos</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TGP_Duos\MovingPlatform.cpp">
-			<Filter>Source\TGP_Duos</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TGP_Duos\MovingPlatform.h">
-			<Filter>Source\TGP_Duos</Filter>
-		</ClInclude >
 		<None Include="..\..\Source\TGP_Duos\TGP_Duos.Build.cs">
 			<Filter>Source\TGP_Duos</Filter>
 		</None >
@@ -77,6 +65,24 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\TGP_Duos\TGP_DuosProjectile.h">
 			<Filter>Source\TGP_Duos</Filter>
+		</ClInclude >
+		<Filter Include="Source\TGP_Duos\Private">
+			<UniqueIdentifier>{118631CE-4613-4517-88E6-96839D660201}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TGP_Duos\Private\Base_Weapon.cpp">
+			<Filter>Source\TGP_Duos\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TGP_Duos\Private\Base_Weapon_Projectile.cpp">
+			<Filter>Source\TGP_Duos\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\TGP_Duos\Public">
+			<UniqueIdentifier>{1FDAA0F0-AA31-4502-86B8-8CDAA7FD1CAB}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\TGP_Duos\Public\Base_Weapon.h">
+			<Filter>Source\TGP_Duos\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TGP_Duos\Public\Base_Weapon_Projectile.h">
+			<Filter>Source\TGP_Duos\Public</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>

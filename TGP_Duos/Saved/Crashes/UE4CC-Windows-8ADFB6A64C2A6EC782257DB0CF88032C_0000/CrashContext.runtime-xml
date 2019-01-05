@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-8ADFB6A64C2A6EC782257DB0CF88032C_0000</CrashGUID>
+		<ProcessId>13340</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-TGP_Duos</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.20.3-4369336+++UE4+Release-4.20</EngineVersion>
+		<CommandLine>&quot;C:/Users/ryem_/source/repos/TGP-Duos/TGP_Duos/TGP_Duos.uproject&quot;-EpicPortal -epicusername=&quot;itssadden&quot; -epicuserid=26eaa5d099374575b8301f86ce2aff90 -epiclocale=en-GB</CommandLine>
+		<LanguageLCID>2057</LanguageLCID>
+		<AppDefaultLocale>en-GB</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.20-CL-4369336</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>ryem</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.20/</RootDir>
+		<MachineId>0063B85E41C0118A4B06CF987F7F5539</MachineId>
+		<LoginId>0063b85e41c0118a4b06cf987f7f5539</LoginId>
+		<EpicAccountId>26eaa5d099374575b8301f86ce2aff90</EpicAccountId>
+		<CallStack />
+		<PCallStack>UE4Editor-CoreUObject 0x00000000e2200000 + 3e696 UE4Editor-TGP_Duos-2573 0x00000000a4500000 + 239e UE4Editor-TGP_Duos-2573 0x00000000a4500000 + 26d5 UE4Editor-CoreUObject 0x00000000e2200000 + 13aafd UE4Editor-CoreUObject 0x00000000e2200000 + 41dcf8 UE4Editor-CoreUObject 0x00000000e2200000 + 3fda9f UE4Editor-CoreUObject 0x00000000e2200000 + 140a57 UE4Editor-Core 0x00000000d7180000 + 12e08e UE4Editor-Core 0x00000000d7180000 + 2e7851 UE4Editor-Projects 0x00000000f2b00000 + 1d11c UE4Editor-Projects 0x00000000f2b00000 + 1d404 UE4Editor 0x000000004fee0000 + 18521 UE4Editor 0x000000004fee0000 + 1d907 UE4Editor 0x000000004fee0000 + 15968 UE4Editor 0x000000004fee0000 + 15bba UE4Editor 0x000000004fee0000 + 23dac UE4Editor 0x000000004fee0000 + 25aaa KERNEL32 0x000000001fd60000 + 13034 ntdll 0x00000000205f0000 + 73691</PCallStack>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage />
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-4460 CPU @ 3.20GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1060 6GB</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName />
+		<MemoryStats.TotalPhysical>12738658304</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>12</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636820520762350000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
