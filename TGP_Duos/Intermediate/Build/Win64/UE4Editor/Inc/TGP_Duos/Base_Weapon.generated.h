@@ -8,13 +8,54 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UWorld;
+struct FVector;
+struct FRotator;
 #ifdef TGP_DUOS_Base_Weapon_generated_h
 #error "Base_Weapon.generated.h already included, missing '#pragma once' in Base_Weapon.h"
 #endif
 #define TGP_DUOS_Base_Weapon_generated_h
 
-#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_RPC_WRAPPERS
-#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_RPC_WRAPPERS \
+	virtual void Shoot_Implementation(UWorld* passedWorld, FVector playerPos, FRotator playerRot); \
+ \
+	DECLARE_FUNCTION(execShoot) \
+	{ \
+		P_GET_OBJECT(UWorld,Z_Param_passedWorld); \
+		P_GET_STRUCT(FVector,Z_Param_playerPos); \
+		P_GET_STRUCT(FRotator,Z_Param_playerRot); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Shoot_Implementation(Z_Param_passedWorld,Z_Param_playerPos,Z_Param_playerRot); \
+		P_NATIVE_END; \
+	}
+
+
+#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void Shoot_Implementation(UWorld* passedWorld, FVector playerPos, FRotator playerRot); \
+ \
+	DECLARE_FUNCTION(execShoot) \
+	{ \
+		P_GET_OBJECT(UWorld,Z_Param_passedWorld); \
+		P_GET_STRUCT(FVector,Z_Param_playerPos); \
+		P_GET_STRUCT(FRotator,Z_Param_playerRot); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Shoot_Implementation(Z_Param_passedWorld,Z_Param_playerPos,Z_Param_playerRot); \
+		P_NATIVE_END; \
+	}
+
+
+#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_EVENT_PARMS \
+	struct Base_Weapon_eventShoot_Parms \
+	{ \
+		UWorld* passedWorld; \
+		FVector playerPos; \
+		FRotator playerRot; \
+	};
+
+
+#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_CALLBACK_WRAPPERS
 #define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABase_Weapon(); \
@@ -60,16 +101,21 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABase_Weapon); \
 #define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__emptyRootComponent() { return STRUCT_OFFSET(ABase_Weapon, emptyRootComponent); } \
 	FORCEINLINE static uint32 __PPO__weaponBody() { return STRUCT_OFFSET(ABase_Weapon, weaponBody); } \
-	FORCEINLINE static uint32 __PPO__muzzleLocation() { return STRUCT_OFFSET(ABase_Weapon, muzzleLocation); } \
-	FORCEINLINE static uint32 __PPO__projectileClass() { return STRUCT_OFFSET(ABase_Weapon, projectileClass); }
+	FORCEINLINE static uint32 __PPO__projectileClass() { return STRUCT_OFFSET(ABase_Weapon, projectileClass); } \
+	FORCEINLINE static uint32 __PPO__bodyRotation() { return STRUCT_OFFSET(ABase_Weapon, bodyRotation); } \
+	FORCEINLINE static uint32 __PPO__bodyScale() { return STRUCT_OFFSET(ABase_Weapon, bodyScale); }
 
 
-#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_12_PROLOG
+#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_12_PROLOG \
+	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_EVENT_PARMS
+
+
 #define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_PRIVATE_PROPERTY_OFFSET \
 	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_RPC_WRAPPERS \
+	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_CALLBACK_WRAPPERS \
 	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_INCLASS \
 	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -81,6 +127,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_PRIVATE_PROPERTY_OFFSET \
 	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_CALLBACK_WRAPPERS \
 	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_INCLASS_NO_PURE_DECLS \
 	TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_h_15_ENHANCED_CONSTRUCTORS \
 private: \

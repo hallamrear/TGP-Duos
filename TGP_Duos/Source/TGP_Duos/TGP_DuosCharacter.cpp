@@ -14,6 +14,8 @@
 #include "Base_Weapon_Projectile.h"
 #include <Runtime/Engine/Classes/Engine/Engine.h>
 
+#include <string>
+
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
@@ -21,55 +23,58 @@ DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 ATGP_DuosCharacter::ATGP_DuosCharacter()
 {
-	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
+	RootComponent = GetCapsuleComponent();
 
-	// set our turn rates for input
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
 
-	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
 	FirstPersonCameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 64.f); // Position the camera
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
-	// Create a mesh component that will be used when being viewed from a '1st person' view (when controlling this pawn)
 	Mesh1P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
 	Mesh1P->SetOnlyOwnerSee(true);
-	Mesh1P->SetupAttachment(FirstPersonCameraComponent);
 	Mesh1P->bCastDynamicShadow = false;
 	Mesh1P->CastShadow = false;
 	Mesh1P->RelativeRotation = FRotator(1.9f, -19.19f, 5.2f);
 	Mesh1P->RelativeLocation = FVector(-0.5f, -4.4f, -155.7f);
-
-	// Create a gun mesh component
-	weaponMesh = weaponOne->GetDefaultObject<ABase_Weapon>()->GetWeaponMesh();
-	weaponMesh->SetOnlyOwnerSee(true);			// only the owning player will see this mesh
-	weaponMesh->bCastDynamicShadow = false;
-	weaponMesh->CastShadow = false;
-	weaponMesh->SetupAttachment(RootComponent);
-
-	// Default offset from the character location for projectiles to spawn
+	Mesh1P->SetupAttachment(FirstPersonCameraComponent);
+	
 	GunOffset = FVector(100.0f, 0.0f, 10.0f);
 
-	// Note: The ProjectileClass and the skeletal mesh/anim bluepwrints for Mesh1P, FP_Gun, and VR_Gun 
-	// are set in the derived blueprint asset named MyCharacter to avoid direct content references in C++.
+	muzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("MuzzleLocation"));
+	muzzleLocation->SetupAttachment(weaponMesh);
+	muzzleLocation->SetRelativeLocation(FVector(0.2f, 48.4f, -10.6f));
+
+	weaponMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Current Weapon Body"));//example
+	weaponMesh->SetOnlyOwnerSee(true);
+	weaponMesh->bCastDynamicShadow = false;
+	weaponMesh->CastShadow = false;
+	weaponMesh->SetupAttachment(muzzleLocation);
 }
 
 void ATGP_DuosCharacter::BeginPlay()
 {
-	// Call the base class  
 	Super::BeginPlay();
+}
 
-	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
-	weaponOne->GetDefaultObject<ABase_Weapon>()->GetWeaponMesh()->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+void ATGP_DuosCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	muzzleLocation->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 
+	auto weaponCDO = weaponOne->GetDefaultObject<ABase_Weapon>();
+	tempBodyAsset = weaponCDO->GetWeaponMesh()->GetStaticMesh();
+	weaponMesh->SetStaticMesh(tempBodyAsset);
+	weaponMesh->SetRelativeRotation(FQuat(weaponCDO->GetWeaponBodyRotation().X, weaponCDO->GetWeaponBodyRotation().Y, weaponCDO->GetWeaponBodyRotation().Z, 1.0f));
+	weaponMesh->SetWorldScale3D(FVector(weaponCDO->GetWeaponBodyScale()));
+	currentWeapon = 1;
 }	
 
 //////////////////////////////////////////////////////////////////////////
 // Input
-
 void ATGP_DuosCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// set up gameplay key bindings
@@ -78,24 +83,15 @@ void ATGP_DuosCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-
-	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATGP_DuosCharacter::OnFire);
-
-	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &ATGP_DuosCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ATGP_DuosCharacter::MoveRight);
-
-	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
-	// "turn" handles devices that provide an absolute delta, such as a mouse.
-	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &ATGP_DuosCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ATGP_DuosCharacter::LookUpAtRate);
 
-	//_Weapons_
-	//Equiping buttons for 3 weapons.
+	//_Weapons
 	PlayerInputComponent->BindAction("Weapon_1", IE_Pressed, this, &ATGP_DuosCharacter::EquipWeapon_1);
 	PlayerInputComponent->BindAction("Weapon_2", IE_Pressed, this, &ATGP_DuosCharacter::EquipWeapon_2);
 	PlayerInputComponent->BindAction("Weapon_3", IE_Pressed, this, &ATGP_DuosCharacter::EquipWeapon_3);
@@ -103,48 +99,75 @@ void ATGP_DuosCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 
 void ATGP_DuosCharacter::EquipWeapon_1()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 1 button pressed."));
-
-	if (hasWeaponOne)
+	if (currentWeapon != 1)
 	{
-
+		GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 1."));
+		auto weaponCDO = weaponOne->GetDefaultObject<ABase_Weapon>();
+		tempBodyAsset = weaponCDO->GetWeaponMesh()->GetStaticMesh();
+		weaponMesh->SetStaticMesh(tempBodyAsset);
+		weaponMesh->SetRelativeRotation(FQuat(weaponCDO->GetWeaponBodyRotation().X, weaponCDO->GetWeaponBodyRotation().Y, weaponCDO->GetWeaponBodyRotation().Z, 1.0f));
+		weaponMesh->SetWorldScale3D(FVector(weaponCDO->GetWeaponBodyScale()));
+		currentWeapon = 1;
 	}
 }
 
 void ATGP_DuosCharacter::EquipWeapon_2()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 2 button pressed."));
-
-	if (hasWeaponTwo)
+	if (currentWeapon != 2)
 	{
-
+		GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 2."));
+		auto weaponCDO = weaponTwo->GetDefaultObject<ABase_Weapon>();
+		tempBodyAsset = weaponCDO->GetWeaponMesh()->GetStaticMesh();
+		weaponMesh->SetStaticMesh(tempBodyAsset);
+		weaponMesh->SetRelativeRotation(FQuat(weaponCDO->GetWeaponBodyRotation().X, weaponCDO->GetWeaponBodyRotation().Y, weaponCDO->GetWeaponBodyRotation().Z, 1.0f));
+		weaponMesh->SetWorldScale3D(FVector(weaponCDO->GetWeaponBodyScale()));
+		currentWeapon = 2;
 	}
 }
 
 void ATGP_DuosCharacter::EquipWeapon_3()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 3 button pressed."));
-
-	if (hasWeaponThree)
+	if (currentWeapon != 3)
 	{
-
+		GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Weapon 3."));
+		auto weaponCDO = weaponThree->GetDefaultObject<ABase_Weapon>();
+		tempBodyAsset = weaponCDO->GetWeaponMesh()->GetStaticMesh();
+		weaponMesh->SetStaticMesh(tempBodyAsset);
+		weaponMesh->SetRelativeRotation(FQuat(weaponCDO->GetWeaponBodyRotation().X, weaponCDO->GetWeaponBodyRotation().Y, weaponCDO->GetWeaponBodyRotation().Z, 1.0f));
+		weaponMesh->SetWorldScale3D(FVector(weaponCDO->GetWeaponBodyScale()));
+		currentWeapon = 3;
 	}
 }
 
 void ATGP_DuosCharacter::OnFire()
 {
-	weaponOne->GetDefaultObject<ABase_Weapon>()->Shoot();
+	const FRotator SpawnRotation = GetControlRotation();
+	const FVector SpawnLocation = ((muzzleLocation != nullptr) ? muzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
 
-	// try and play the sound if specified
+
+	switch (currentWeapon)
+	{
+	case 1:
+		weaponOne->GetDefaultObject<ABase_Weapon>()->Shoot(GetWorld(), SpawnLocation, SpawnRotation);
+		break;
+	case 2:
+		weaponTwo->GetDefaultObject<ABase_Weapon>()->Shoot(GetWorld(), SpawnLocation, SpawnRotation);
+		break;
+	case 3:
+		weaponThree->GetDefaultObject<ABase_Weapon>()->Shoot(GetWorld(), SpawnLocation, SpawnRotation);
+		//Plays Sound
+		
+		break;
+	}
+
 	if (FireSound != NULL)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 	}
 
-	// try and play a firing animation if specified
+	//Plays Animations
 	if (FireAnimation != NULL)
 	{
-		// Get the animation object for the arms mesh
 		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
 		if (AnimInstance != NULL)
 		{
@@ -157,7 +180,6 @@ void ATGP_DuosCharacter::MoveForward(float Value)
 {
 	if (Value != 0.0f)
 	{
-		// add movement in that direction
 		AddMovementInput(GetActorForwardVector(), Value);
 	}
 }
@@ -166,19 +188,16 @@ void ATGP_DuosCharacter::MoveRight(float Value)
 {
 	if (Value != 0.0f)
 	{
-		// add movement in that direction
 		AddMovementInput(GetActorRightVector(), Value);
 	}
 }
 
 void ATGP_DuosCharacter::TurnAtRate(float Rate)
 {
-	// calculate delta for this frame from the rate information
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 
 void ATGP_DuosCharacter::LookUpAtRate(float Rate)
 {
-	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }

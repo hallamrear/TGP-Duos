@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TGP_Duos.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{7A2E2104-DA45-4FA9-A9D2-5B9A447C327A}</UniqueIdentifier>
+			<UniqueIdentifier>{54B3D4A2-C442-45FB-83FC-F37892A108EE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TGP_Duos.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{C690FBD9-8C86-429E-ACC3-DDF9DE2F20A5}</UniqueIdentifier>
+			<UniqueIdentifier>{4518AF6E-7B6F-4F66-A1E7-DC1BC90210E0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TGP_Duos">
-			<UniqueIdentifier>{76BE988A-8D05-4CEC-8268-0D83BCE30BDE}</UniqueIdentifier>
+			<UniqueIdentifier>{0C4A57D8-A379-4FBD-8DB0-1A3578DA37CF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TGP_Duos\TGP_Duos.Build.cs">
 			<Filter>Source\TGP_Duos</Filter>
@@ -67,7 +67,7 @@
 			<Filter>Source\TGP_Duos</Filter>
 		</ClInclude >
 		<Filter Include="Source\TGP_Duos\Private">
-			<UniqueIdentifier>{DC4AB144-045D-4849-A328-7EE49AA73364}</UniqueIdentifier>
+			<UniqueIdentifier>{118631CE-4613-4517-88E6-96839D660201}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TGP_Duos\Private\Base_Weapon.cpp">
 			<Filter>Source\TGP_Duos\Private</Filter>
@@ -76,7 +76,7 @@
 			<Filter>Source\TGP_Duos\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\TGP_Duos\Public">
-			<UniqueIdentifier>{E4F696C5-B4C0-4AA4-B700-9C3BED15AF11}</UniqueIdentifier>
+			<UniqueIdentifier>{1FDAA0F0-AA31-4502-86B8-8CDAA7FD1CAB}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\TGP_Duos\Public\Base_Weapon.h">
 			<Filter>Source\TGP_Duos\Public</Filter>

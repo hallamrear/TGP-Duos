@@ -8,13 +8,47 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef TGP_DUOS_Base_Weapon_Projectile_generated_h
 #error "Base_Weapon_Projectile.generated.h already included, missing '#pragma once' in Base_Weapon_Projectile.h"
 #endif
 #define TGP_DUOS_Base_Weapon_Projectile_generated_h
 
-#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_Projectile_h_12_RPC_WRAPPERS
-#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_Projectile_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
+#define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
 #define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_Projectile_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABase_Weapon_Projectile(); \
@@ -58,8 +92,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABase_Weapon_Projectile); \
 
 
 #define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__emptyRoot() { return STRUCT_OFFSET(ABase_Weapon_Projectile, emptyRoot); } \
-	FORCEINLINE static uint32 __PPO__projectileMovementComponent() { return STRUCT_OFFSET(ABase_Weapon_Projectile, projectileMovementComponent); }
+	FORCEINLINE static uint32 __PPO__DamageDealtPerHit() { return STRUCT_OFFSET(ABase_Weapon_Projectile, DamageDealtPerHit); } \
+	FORCEINLINE static uint32 __PPO__projectileMovementComponent() { return STRUCT_OFFSET(ABase_Weapon_Projectile, projectileMovementComponent); } \
+	FORCEINLINE static uint32 __PPO__projectileMesh() { return STRUCT_OFFSET(ABase_Weapon_Projectile, projectileMesh); } \
+	FORCEINLINE static uint32 __PPO__CollisionComp() { return STRUCT_OFFSET(ABase_Weapon_Projectile, CollisionComp); }
 
 
 #define TGP_Duos_Source_TGP_Duos_Public_Base_Weapon_Projectile_h_9_PROLOG

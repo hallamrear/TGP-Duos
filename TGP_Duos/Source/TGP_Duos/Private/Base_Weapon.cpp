@@ -15,45 +15,35 @@ ABase_Weapon::ABase_Weapon()
 	RootComponent = emptyRootComponent;
 
 	weaponBody = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Weapon Body"));
-	static ConstructorHelpers::FObjectFinder<UStaticMesh>MeshAsset(TEXT("StaticMesh'/Game/Weapons/Assets/AUG/AUG.AUG'"));
-	UStaticMesh* Asset = MeshAsset.Object;
-	weaponBody->SetStaticMesh(Asset);
 	weaponBody->SetupAttachment(RootComponent); 
 }
 
 // Called when the game starts or when spawned
-void ABase_Weapon::BeginPlay()
+void ABase_Weapon::PostInitializeComponents()
 {
-	Super::BeginPlay();
-	
+	Super::PostInitializeComponents();
 }
 
 // Called every frame
 void ABase_Weapon::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
-void ABase_Weapon::Shoot()
+void ABase_Weapon::Shoot_Implementation(UWorld* passedWorld, FVector playerPos, FRotator playerRot)
 {
 	//Firing Projectile
 	if (projectileClass != NULL)
 	{
-		UWorld* const World = GetWorld();
-
-		if (World != NULL)
+		if (passedWorld != NULL)
 		{
-			const FRotator SpawnRotation = FRotator(0, 0, 0);
-			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-			const FVector SpawnLocation = muzzleLocation;
-
 			//Set Spawn Collision Handling Override
 			FActorSpawnParameters ActorSpawnParams;
-			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
 
 			// spawn the projectile at the muzzle
-			World->SpawnActor<ABase_Weapon_Projectile>(projectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+			passedWorld->SpawnActor<ABase_Weapon_Projectile>(projectileClass, playerPos, playerRot, ActorSpawnParams);
+			GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Spawned" + playerPos.ToString() + playerRot.ToString()));
 		}
 	}
 }
@@ -66,12 +56,25 @@ UStaticMeshComponent * ABase_Weapon::GetWeaponMesh()
 	return nullptr;
 }
 
+void ABase_Weapon::SetProjectileClass(TSubclassOf<ABase_Weapon_Projectile> weaponProjClass)
+{
+	if (weaponProjClass)
+	{
+		projectileClass = weaponProjClass;
+	}
+}
+
 TSubclassOf<ABase_Weapon_Projectile> ABase_Weapon::GetProjectileClass()
 {
 	return projectileClass;
 }
 
-FVector ABase_Weapon::GetMuzzleLocation()
+FVector ABase_Weapon::GetWeaponBodyRotation()
 {
-	return muzzleLocation;
+	return bodyRotation;
+}
+
+FVector ABase_Weapon::GetWeaponBodyScale()
+{
+	return bodyScale;
 }

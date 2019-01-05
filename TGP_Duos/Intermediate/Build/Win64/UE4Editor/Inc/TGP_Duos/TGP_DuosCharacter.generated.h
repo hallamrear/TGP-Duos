@@ -61,8 +61,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATGP_DuosCharacter); \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(ATGP_DuosCharacter, Mesh1P); } \
 	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(ATGP_DuosCharacter, FirstPersonCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__weaponOne() { return STRUCT_OFFSET(ATGP_DuosCharacter, weaponOne); } \
+	FORCEINLINE static uint32 __PPO__weaponTwo() { return STRUCT_OFFSET(ATGP_DuosCharacter, weaponTwo); } \
+	FORCEINLINE static uint32 __PPO__weaponThree() { return STRUCT_OFFSET(ATGP_DuosCharacter, weaponThree); } \
 	FORCEINLINE static uint32 __PPO__weaponMesh() { return STRUCT_OFFSET(ATGP_DuosCharacter, weaponMesh); } \
-	FORCEINLINE static uint32 __PPO__weaponProjectile() { return STRUCT_OFFSET(ATGP_DuosCharacter, weaponProjectile); }
+	FORCEINLINE static uint32 __PPO__tempBodyAsset() { return STRUCT_OFFSET(ATGP_DuosCharacter, tempBodyAsset); } \
+	FORCEINLINE static uint32 __PPO__muzzleLocation() { return STRUCT_OFFSET(ATGP_DuosCharacter, muzzleLocation); }
 
 
 #define TGP_Duos_Source_TGP_Duos_TGP_DuosCharacter_h_11_PROLOG

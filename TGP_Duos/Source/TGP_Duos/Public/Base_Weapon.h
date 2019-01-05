@@ -19,24 +19,33 @@ public:
 	ABase_Weapon();
 
 protected:
+	
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent * emptyRootComponent;
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent * weaponBody;
-	UPROPERTY(VisibleAnywhere)
-	FVector muzzleLocation;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Projectile)
 	TSubclassOf<ABase_Weapon_Projectile> projectileClass;
+	
+	UPROPERTY(EditDefaultsOnly, Category = Weapon)
+	FVector bodyRotation;	
+	UPROPERTY(EditDefaultsOnly, Category = Weapon)
+	FVector bodyScale;
 
 	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	virtual void PostInitializeComponents() override;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	virtual void Shoot();
+
+	UFUNCTION(BlueprintNativeEvent, meta = (DisplayName = "Shoot"))
+	void Shoot(UWorld * passedWorld, FVector playerPos, FRotator playerRot);
 
 	UStaticMeshComponent * GetWeaponMesh();
+	void SetProjectileClass(TSubclassOf<ABase_Weapon_Projectile> weaponProjClass);
 	TSubclassOf<ABase_Weapon_Projectile> GetProjectileClass();
-	FVector GetMuzzleLocation();
+	FVector GetWeaponBodyScale();
+	FVector GetWeaponBodyRotation();
 };
+

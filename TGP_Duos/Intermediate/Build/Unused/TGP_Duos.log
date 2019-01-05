@@ -1,2 +1,9 @@
-﻿  The system cannot find the path specified.
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" TGP_DuosEditor Win64 Development "E:\Repos\Uni\TGP-Duos\TGP_Duos\TGP_Duos.uproject" -WaitMutex -FromMsBuild" exited with code 3.
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Building 3 actions with 4 processes...
+    [1/3] Base_Weapon.cpp
+    [2/3] UE4Editor-TGP_Duos.lib
+       Creating library C:\Users\ryem_\source\repos\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.lib and object C:\Users\ryem_\source\repos\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.exp
+    [3/3] UE4Editor-TGP_Duos.dll
+       Creating library C:\Users\ryem_\source\repos\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.suppressed.lib and object C:\Users\ryem_\source\repos\TGP-Duos\TGP_Duos\Intermediate\Build\Win64\UE4Editor\Development\TGP_Duos\UE4Editor-TGP_Duos.suppressed.exp
+  Deploying TGP_DuosEditor Win64 Development...
+  Total build time: 19.78 seconds (Parallel executor: 16.85 seconds)
