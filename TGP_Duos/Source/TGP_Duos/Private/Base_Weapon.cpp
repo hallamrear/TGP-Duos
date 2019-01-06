@@ -43,7 +43,6 @@ void ABase_Weapon::Shoot_Implementation(UWorld* passedWorld, FVector playerPos, 
 
 			// spawn the projectile at the muzzle
 			passedWorld->SpawnActor<ABase_Weapon_Projectile>(projectileClass, playerPos, playerRot, ActorSpawnParams);
-			GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Red, TEXT("Spawned" + playerPos.ToString() + playerRot.ToString()));
 		}
 	}
 }
