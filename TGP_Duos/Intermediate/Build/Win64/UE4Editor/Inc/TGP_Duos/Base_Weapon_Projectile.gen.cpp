@@ -180,7 +180,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Weapon_Projectile() {}
 		{ "ModuleRelativePath", "Public/Base_Weapon_Projectile.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABase_Weapon_Projectile_Statics::NewProp_DamageDealtPerHit = { UE4CodeGen_Private::EPropertyClass::Int, "DamageDealtPerHit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ABase_Weapon_Projectile, DamageDealtPerHit), METADATA_PARAMS(Z_Construct_UClass_ABase_Weapon_Projectile_Statics::NewProp_DamageDealtPerHit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase_Weapon_Projectile_Statics::NewProp_DamageDealtPerHit_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABase_Weapon_Projectile_Statics::NewProp_DamageDealtPerHit = { UE4CodeGen_Private::EPropertyClass::Int, "DamageDealtPerHit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010015, 1, nullptr, STRUCT_OFFSET(ABase_Weapon_Projectile, DamageDealtPerHit), METADATA_PARAMS(Z_Construct_UClass_ABase_Weapon_Projectile_Statics::NewProp_DamageDealtPerHit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase_Weapon_Projectile_Statics::NewProp_DamageDealtPerHit_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABase_Weapon_Projectile_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Weapon_Projectile_Statics::NewProp_CollisionComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Weapon_Projectile_Statics::NewProp_projectileMesh,
@@ -210,7 +210,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Weapon_Projectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase_Weapon_Projectile, 1415890005);
+	IMPLEMENT_CLASS(ABase_Weapon_Projectile, 2929873188);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABase_Weapon_Projectile(Z_Construct_UClass_ABase_Weapon_Projectile, &ABase_Weapon_Projectile::StaticClass, TEXT("/Script/TGP_Duos"), TEXT("ABase_Weapon_Projectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABase_Weapon_Projectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
